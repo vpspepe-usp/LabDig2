@@ -1,0 +1,82 @@
+# do EXP2_B1_1_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /home/victor/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base/tx_serial_uc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:25:42 on Sep 08,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base" /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base/tx_serial_uc.v 
+# -- Compiling module tx_serial_uc
+# 
+# Top level modules:
+# 	tx_serial_uc
+# End time: 17:25:42 on Sep 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base/tx_serial_7N2_fd.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:25:42 on Sep 08,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base" /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base/tx_serial_7N2_fd.v 
+# -- Compiling module tx_serial_7N2_fd
+# 
+# Top level modules:
+# 	tx_serial_7N2_fd
+# End time: 17:25:42 on Sep 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base/tx_serial_7N2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:25:42 on Sep 08,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base" /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base/tx_serial_7N2.v 
+# -- Compiling module tx_serial_7N2
+# 
+# Top level modules:
+# 	tx_serial_7N2
+# End time: 17:25:42 on Sep 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base/hexa7seg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:25:42 on Sep 08,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base" /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base/hexa7seg.v 
+# -- Compiling module hexa7seg
+# 
+# Top level modules:
+# 	hexa7seg
+# End time: 17:25:42 on Sep 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base/edge_detector.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:25:42 on Sep 08,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base" /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base/edge_detector.v 
+# -- Compiling module edge_detector
+# 
+# Top level modules:
+# 	edge_detector
+# End time: 17:25:42 on Sep 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base/deslocador_n.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:25:42 on Sep 08,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base" /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base/deslocador_n.v 
+# -- Compiling module deslocador_n
+# 
+# Top level modules:
+# 	deslocador_n
+# End time: 17:25:42 on Sep 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base/contador_m.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:25:42 on Sep 08,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base" /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base/contador_m.v 
+# -- Compiling module contador_m
+# 
+# Top level modules:
+# 	contador_m
+# End time: 17:25:42 on Sep 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 

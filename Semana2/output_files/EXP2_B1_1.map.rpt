@@ -1,0 +1,285 @@
+Analysis & Elaboration report for EXP2_B1_1
+Sun Sep  8 17:25:36 2024
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Elaboration Summary
+  3. Parallel Compilation
+  4. Parameter Settings for User Entity Instance: tx_serial_7N2_fd:U1_FD|deslocador_n:U1
+  5. Parameter Settings for User Entity Instance: tx_serial_7N2_fd:U1_FD|contador_m:U2
+  6. Parameter Settings for User Entity Instance: tx_serial_uc:U2_UC
+  7. Parameter Settings for User Entity Instance: contador_m:U3_TICK
+  8. Analysis & Elaboration Settings
+  9. Port Connectivity Checks: "contador_m:U3_TICK"
+ 10. Port Connectivity Checks: "tx_serial_7N2_fd:U1_FD|contador_m:U2"
+ 11. Port Connectivity Checks: "tx_serial_7N2_fd:U1_FD|deslocador_n:U1"
+ 12. Analysis & Elaboration Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-----------------------------------------------------------------------------+
+; Analysis & Elaboration Summary                                              ;
++-------------------------------+---------------------------------------------+
+; Analysis & Elaboration Status ; Successful - Sun Sep  8 17:25:36 2024       ;
+; Quartus Prime Version         ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Revision Name                 ; EXP2_B1_1                                   ;
+; Top-level Entity Name         ; tx_serial_7N2                               ;
+; Family                        ; Cyclone V                                   ;
+; Logic utilization (in ALMs)   ; N/A until Partition Merge                   ;
+; Total registers               ; N/A until Partition Merge                   ;
+; Total pins                    ; N/A until Partition Merge                   ;
+; Total virtual pins            ; N/A until Partition Merge                   ;
+; Total block memory bits       ; N/A until Partition Merge                   ;
+; Total PLLs                    ; N/A until Partition Merge                   ;
+; Total DLLs                    ; N/A until Partition Merge                   ;
++-------------------------------+---------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++-------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: tx_serial_7N2_fd:U1_FD|deslocador_n:U1 ;
++----------------+-------+------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                       ;
++----------------+-------+------------------------------------------------------------+
+; N              ; 11    ; Signed Integer                                             ;
++----------------+-------+------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: tx_serial_7N2_fd:U1_FD|contador_m:U2 ;
++----------------+-------+----------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                     ;
++----------------+-------+----------------------------------------------------------+
+; M              ; 12    ; Signed Integer                                           ;
+; N              ; 4     ; Signed Integer                                           ;
++----------------+-------+----------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: tx_serial_uc:U2_UC ;
++----------------+-------+----------------------------------------+
+; Parameter Name ; Value ; Type                                   ;
++----------------+-------+----------------------------------------+
+; inicial        ; 0000  ; Unsigned Binary                        ;
+; preparacao     ; 0001  ; Unsigned Binary                        ;
+; espera         ; 0011  ; Unsigned Binary                        ;
+; transmissao    ; 0111  ; Unsigned Binary                        ;
+; final_tx       ; 1111  ; Unsigned Binary                        ;
++----------------+-------+----------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: contador_m:U3_TICK ;
++----------------+-------+----------------------------------------+
+; Parameter Name ; Value ; Type                                   ;
++----------------+-------+----------------------------------------+
+; M              ; 5208  ; Signed Integer                         ;
+; N              ; 13    ; Signed Integer                         ;
++----------------+-------+----------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Elaboration Settings                                                                                           ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 5CEBA4F23C7        ;                    ;
+; Top-level entity name                                                           ; tx_serial_7N2      ; EXP2_B1_1          ;
+; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
+; Use smart compilation                                                           ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Off                ; Off                ;
+; Extract Verilog State Machines                                                  ; On                 ; On                 ;
+; Extract VHDL State Machines                                                     ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; Parallel Synthesis                                                              ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                              ; 70                 ; 70                 ;
+; Auto Carry Chains                                                               ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Connectivity Checks                                                      ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------------------+
+; Port Connectivity Checks: "contador_m:U3_TICK"       ;
++---------+--------+----------+------------------------+
+; Port    ; Type   ; Severity ; Details                ;
++---------+--------+----------+------------------------+
+; zera_as ; Input  ; Info     ; Stuck at GND           ;
+; conta   ; Input  ; Info     ; Stuck at VCC           ;
+; Q       ; Output ; Info     ; Explicitly unconnected ;
+; meio    ; Output ; Info     ; Explicitly unconnected ;
++---------+--------+----------+------------------------+
+
+
++------------------------------------------------------------------+
+; Port Connectivity Checks: "tx_serial_7N2_fd:U1_FD|contador_m:U2" ;
++---------+--------+----------+------------------------------------+
+; Port    ; Type   ; Severity ; Details                            ;
++---------+--------+----------+------------------------------------+
+; zera_as ; Input  ; Info     ; Stuck at GND                       ;
+; Q       ; Output ; Info     ; Explicitly unconnected             ;
+; meio    ; Output ; Info     ; Explicitly unconnected             ;
++---------+--------+----------+------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "tx_serial_7N2_fd:U1_FD|deslocador_n:U1"                                                       ;
++----------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port           ; Type   ; Severity ; Details                                                                             ;
++----------------+--------+----------+-------------------------------------------------------------------------------------+
+; entrada_serial ; Input  ; Info     ; Stuck at VCC                                                                        ;
+; dados[10..9]   ; Input  ; Info     ; Stuck at VCC                                                                        ;
+; dados[1]       ; Input  ; Info     ; Stuck at GND                                                                        ;
+; dados[0]       ; Input  ; Info     ; Stuck at VCC                                                                        ;
+; saida[10..1]   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++----------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++---------------------------------+
+; Analysis & Elaboration Messages ;
++---------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Elaboration
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+    Info: Processing started: Sun Sep  8 17:25:29 2024
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off EXP2_B1_1 -c EXP2_B1_1 --analysis_and_elaboration
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file tx_serial_base/tx_serial_uc.v
+    Info (12023): Found entity 1: tx_serial_uc File: /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base/tx_serial_uc.v Line: 16
+Info (12021): Found 1 design units, including 1 entities, in source file tx_serial_base/tx_serial_7N2_fd.v
+    Info (12023): Found entity 1: tx_serial_7N2_fd File: /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base/tx_serial_7N2_fd.v Line: 5
+Info (12021): Found 1 design units, including 1 entities, in source file tx_serial_base/tx_serial_7N2.v
+    Info (12023): Found entity 1: tx_serial_7N2 File: /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base/tx_serial_7N2.v Line: 5
+Info (12021): Found 1 design units, including 1 entities, in source file tx_serial_base/hexa7seg.v
+    Info (12023): Found entity 1: hexa7seg File: /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base/hexa7seg.v Line: 22
+Info (12021): Found 1 design units, including 1 entities, in source file tx_serial_base/edge_detector.v
+    Info (12023): Found entity 1: edge_detector File: /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base/edge_detector.v Line: 19
+Info (12021): Found 1 design units, including 1 entities, in source file tx_serial_base/deslocador_n.v
+    Info (12023): Found entity 1: deslocador_n File: /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base/deslocador_n.v Line: 15
+Info (12021): Found 1 design units, including 1 entities, in source file tx_serial_base/contador_m.v
+    Info (12023): Found entity 1: contador_m File: /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base/contador_m.v Line: 17
+Info (12127): Elaborating entity "tx_serial_7N2" for the top level hierarchy
+Info (12128): Elaborating entity "tx_serial_7N2_fd" for hierarchy "tx_serial_7N2_fd:U1_FD" File: /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base/tx_serial_7N2.v Line: 46
+Info (12128): Elaborating entity "deslocador_n" for hierarchy "tx_serial_7N2_fd:U1_FD|deslocador_n:U1" File: /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base/tx_serial_7N2_fd.v Line: 38
+Info (12128): Elaborating entity "contador_m" for hierarchy "tx_serial_7N2_fd:U1_FD|contador_m:U2" File: /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base/tx_serial_7N2_fd.v Line: 52
+Info (12128): Elaborating entity "tx_serial_uc" for hierarchy "tx_serial_uc:U2_UC" File: /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base/tx_serial_7N2.v Line: 62
+Info (12128): Elaborating entity "contador_m" for hierarchy "contador_m:U3_TICK" File: /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base/tx_serial_7N2.v Line: 78
+Info (12128): Elaborating entity "edge_detector" for hierarchy "edge_detector:U4_ED" File: /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base/tx_serial_7N2.v Line: 87
+Info (12128): Elaborating entity "hexa7seg" for hierarchy "hexa7seg:HEX0" File: /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_base/tx_serial_7N2.v Line: 103
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 720 megabytes
+    Info: Processing ended: Sun Sep  8 17:25:36 2024
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:14
+
+

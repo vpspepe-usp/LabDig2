@@ -1,0 +1,246 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/victor/Documentos/USP/LABDIG/P1/Lab-Dig-main/experiencia-7/ATIVIDADE2
+vcontador_m
+Z0 !s110 1725834011
+!i10b 1
+!s100 VJJg7lYlSfI_lZo<hzC9d1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IK;:MEiUkY?d=bh?@zgGK[2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1
+w1724799270
+8/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/contador_m.v
+F/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/contador_m.v
+!i122 16
+L0 17 38
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1725834011.000000
+!s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/contador_m.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/contador_m.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vdeslocador_n
+R0
+!i10b 1
+!s100 ekUiQZ6Ef_XO5Z3[98`6X2
+R1
+Imh47YG3n59UzF5_];;Nn:1
+R2
+R3
+w1724795101
+8/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/deslocador_n.v
+F/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/deslocador_n.v
+!i122 17
+L0 15 31
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/deslocador_n.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/deslocador_n.v|
+!i113 1
+R6
+R7
+vedge_detector
+Z8 !s110 1725834012
+!i10b 1
+!s100 AEDYJD37[Ybb^@2QMVV>20
+R1
+I9LdUUK7]^5a3GMYgnTYC10
+R2
+R3
+w1724787973
+8/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/edge_detector.v
+F/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/edge_detector.v
+!i122 18
+L0 19 23
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/edge_detector.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/edge_detector.v|
+!i113 1
+R6
+R7
+vhexa7seg
+R8
+!i10b 1
+!s100 :20kA`7`L0gDF2=JFj`=l2
+R1
+I;4fVN4JG2GLO=44@BdY9m1
+R2
+R3
+w1724787316
+8/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/hexa7seg.v
+F/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/hexa7seg.v
+!i122 19
+L0 22 38
+R4
+r1
+!s85 0
+31
+Z9 !s108 1725834012.000000
+!s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/hexa7seg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/hexa7seg.v|
+!i113 1
+R6
+R7
+vtx_serial_7N2
+Z10 !s110 1725827046
+!i10b 1
+!s100 `baBNO>h^UBgDMI<bOcf22
+R1
+IY8SYG9BBQSUC0_;ebD`^z0
+R2
+R3
+Z11 w1725826926
+Z12 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/tx_serial_7O1.v
+Z13 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/tx_serial_7O1.v
+!i122 12
+Z14 L0 5 101
+R4
+r1
+!s85 0
+31
+Z15 !s108 1725827046.000000
+Z16 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/tx_serial_7O1.v|
+Z17 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/tx_serial_7O1.v|
+!i113 1
+R6
+R7
+ntx_serial_7@n2
+vtx_serial_7N2_fd
+R10
+!i10b 1
+!s100 1`1>a[Zgi3WMdia9O^XIf2
+R1
+IH^n7>8SjzbJ1?_^daSj282
+R2
+R3
+R11
+Z18 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/tx_serial_7O1_fd.v
+Z19 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/tx_serial_7O1_fd.v
+!i122 13
+Z20 L0 5 53
+R4
+r1
+!s85 0
+31
+R15
+Z21 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/tx_serial_7O1_fd.v|
+Z22 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/tx_serial_7O1_fd.v|
+!i113 1
+R6
+R7
+ntx_serial_7@n2_fd
+vtx_serial_7O1
+R8
+!i10b 1
+!s100 >1ee[IHTX:F[7ZB?D8IDk3
+R1
+I5;S:T>JTO;>MDeMf6kkgH1
+R2
+R3
+w1725827376
+R12
+R13
+!i122 20
+R14
+R4
+r1
+!s85 0
+31
+R9
+R16
+R17
+!i113 1
+R6
+R7
+ntx_serial_7@o1
+vtx_serial_7O1_fd
+R8
+!i10b 1
+!s100 j9LboW5WfS0PLV6fEj5gG0
+R1
+IiK?UlVDin]jCMM02m3>_N2
+R2
+R3
+w1725827402
+R18
+R19
+!i122 21
+R20
+R4
+r1
+!s85 0
+31
+R9
+R21
+R22
+!i113 1
+R6
+R7
+ntx_serial_7@o1_fd
+vtx_serial_7O1_tb
+R8
+!i10b 1
+!s100 cz3:`G2Hh1<hGlV]e[KCC3
+R1
+INdl2Ud>FC1iORA99;c@^h3
+R2
+R3
+w1725826922
+8/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/tx_serial_7O1_tb.v
+F/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/tx_serial_7O1_tb.v
+!i122 22
+L0 7 89
+R4
+r1
+!s85 0
+31
+R9
+!s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/tx_serial_7O1_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/tx_serial_7O1_tb.v|
+!i113 1
+R6
+R7
+ntx_serial_7@o1_tb
+vtx_serial_uc
+R8
+!i10b 1
+!s100 E8o;>OLQ7g9]zZBKTLi@h3
+R1
+IoR9kUekeij<FAE0=@IYHT0
+R2
+R3
+w1724798621
+8/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/tx_serial_uc.v
+F/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/tx_serial_uc.v
+!i122 23
+L0 16 64
+R4
+r1
+!s85 0
+31
+R9
+!s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/tx_serial_uc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/tx_serial_uc.v|
+!i113 1
+R6
+R7

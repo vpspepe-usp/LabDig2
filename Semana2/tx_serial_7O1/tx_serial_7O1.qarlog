@@ -1,0 +1,21 @@
+Quartus Prime Archive log --	/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/tx_serial_7O1.qarlog
+
+Archive:	/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/tx_serial_7O1.qar
+Date:		Sun Sep  8 19:53:06 2024
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/contador_m.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/deslocador_n.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/edge_detector.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/hexa7seg.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/tx_serial_7O1.qpf
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/tx_serial_7O1.qsf
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/tx_serial_7O1.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/tx_serial_7O1_fd.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana2/tx_serial_7O1/tx_serial_uc.v
+/home/victor/intelFPGA_lite/20.1/quartus/linux64/assignment_defaults.qdf
+	======= Total: 10 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
