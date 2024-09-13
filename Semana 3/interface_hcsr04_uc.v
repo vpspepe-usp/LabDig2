@@ -50,7 +50,7 @@ module interface_hcsr04_uc (
             inicial:        Eprox = medir ? preparacao : inicial;
             preparacao:     Eprox = envia_trigger;
             envia_trigger:  Eprox = espera_echo;
-            espera_echo:    Eprox = echo ? medida : espera_echo
+            espera_echo:    Eprox = echo ? medida : espera_echo;
             medida:         Eprox = fim_medida ? armazenamento : medida;
             armazenamento:  Eprox = final_medida;
             final_medida:   Eprox = inicial;
@@ -63,8 +63,8 @@ module interface_hcsr04_uc (
     always @(*) begin
         zera     = (Eatual == preparacao)    ? 1'b1 : 1'b0;
 		  gera     = (Eatual == envia_trigger) ? 1'b1 : 1'b0;
-		  registra = (Eatual = armazenamento)  ? 1'b1 : 1'b0;
-		  pronto   = (Eatual = final_medida)   ? 1'b1 : 1'b0;
+		  registra = (Eatual == armazenamento)  ? 1'b1 : 1'b0;
+		  pronto   = (Eatual == final_medida)   ? 1'b1 : 1'b0;
 
         case (Eatual)
             inicial:       db_estado = 4'b0000;//0
