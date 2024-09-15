@@ -1,0 +1,106 @@
+{/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/contador_cm_fd.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/contador_cm_fd.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module contador_cm_fd
+
+Top level modules:
+	contador_cm_fd
+
+} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/registrador_n.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/registrador_n.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module registrador_n
+
+Top level modules:
+	registrador_n
+
+} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/contador_bcd_3digitos_tb.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/contador_bcd_3digitos_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module contador_bcd_3digitos_tb
+
+Top level modules:
+	contador_bcd_3digitos_tb
+
+} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/hexa7seg.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/hexa7seg.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module hexa7seg
+
+Top level modules:
+	hexa7seg
+
+} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/interface_hcsr04_fd.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/interface_hcsr04_fd.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module interface_hcsr04_fd
+
+Top level modules:
+	interface_hcsr04_fd
+
+} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/contador_bcd_3digitos.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/contador_bcd_3digitos.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module contador_bcd_3digitos
+
+Top level modules:
+	contador_bcd_3digitos
+
+} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/contador_cm_uc.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/contador_cm_uc.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module contador_cm_uc
+
+Top level modules:
+	contador_cm_uc
+
+} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/exp3_sensor.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/exp3_sensor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module exp3_sensor
+
+Top level modules:
+	exp3_sensor
+
+} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/interface_hcsr04_uc.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/interface_hcsr04_uc.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module interface_hcsr04_uc
+
+Top level modules:
+	interface_hcsr04_uc
+
+} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/interface_hcsr04.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/interface_hcsr04.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module interface_hcsr04
+
+Top level modules:
+	interface_hcsr04
+
+} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/contador_m.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/contador_m.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module contador_m
+
+Top level modules:
+	contador_m
+
+} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/edge_detector.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/edge_detector.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module edge_detector
+
+Top level modules:
+	edge_detector
+
+} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/gerador_pulso.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/gerador_pulso.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module gerador_pulso
+
+Top level modules:
+	gerador_pulso
+
+} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/interface_hcsr04_tb.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/interface_hcsr04_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module interface_hcsr04_tb
+
+Top level modules:
+	interface_hcsr04_tb
+
+} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/contador_cm.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/contador_cm.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module contador_cm
+
+Top level modules:
+	contador_cm
+
+} {} {}}
