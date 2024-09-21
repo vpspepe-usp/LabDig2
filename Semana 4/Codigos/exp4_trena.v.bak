@@ -9,17 +9,12 @@ module exp4_trena (
     output [6:0] medida1,
     output [6:0] medida2,
     output pronto,
-    output [6:0] db_estado,
-	 output db_mensurar,
-	 output db_saida_serial,
-	 output db_trigger,
-	 output db_echo
+    output [6:0] db_estado
 );
 
 wire s_medida_pronto, s_envio_pronto;
 wire s_medir, s_transmitir;
 wire [3:0] unidade, dezena, centena, s_db_estado;
-wire s_saida_serial, s_trigger;
 
 trena_digital_fd FD (
     .clock(clock),
@@ -29,8 +24,8 @@ trena_digital_fd FD (
     .echo(echo),
     .medida_pronto(s_medida_pronto),
     .envio_pronto(s_envio_pronto),
-    .trigger(s_trigger),
-    .saida_serial(s_saida_serial),
+    .trigger(trigger),
+    .saida_serial(saida_serial),
     .unidade(unidade),
     .dezena(dezena),
     .centena(centena)
@@ -67,17 +62,6 @@ hexa7seg HEX_DB_ESTADO(
     .hexa(s_db_estado),
     .display(db_estado)
 );
-
-assign db_mensurar = mensurar;
-
-assign db_saida_serial = s_saida_serial;
-assign saida_serial = s_saida_serial;
-
-assign db_trigger = s_trigger;
-assign trigger = s_trigger;
-
-assign db_echo = echo;
-
 
 
 

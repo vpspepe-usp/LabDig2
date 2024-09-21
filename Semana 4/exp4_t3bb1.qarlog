@@ -1,0 +1,36 @@
+Quartus Prime Archive log --	/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/exp4_t3bb1.qarlog
+
+Archive:	/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/exp4_t3bb1.qar
+Date:		Sat Sep 21 18:12:53 2024
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/contador_bcd_3digitos.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/contador_cm.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/contador_cm_fd.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/contador_cm_uc.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/contador_m.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/deslocador_n.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/edge_detector.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/exp3_sensor.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/exp4_trena.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/exp4_trena_tb.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/gerador_pulso.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/hexa7seg.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/interface_hcsr04.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/interface_hcsr04_fd.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/interface_hcsr04_uc.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/mux_4x1_n.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/registrador_n.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/trena_digital_fd.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/trena_digital_uc.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/tx_serial_7O1.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/tx_serial_7O1_fd.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/tx_serial_uc.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/exp_4_trena_digital.qpf
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/exp_4_trena_digital.qsf
+/home/victor/intelFPGA_lite/20.1/quartus/linux64/assignment_defaults.qdf
+	======= Total: 25 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

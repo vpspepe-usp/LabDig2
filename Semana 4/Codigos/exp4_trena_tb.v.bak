@@ -45,8 +45,8 @@ initial begin
 
     // Inicialização do array de casos de teste
     casos_teste[0] = 5882;   // 5882us (100cm)
-    casos_teste[1] = 4430;   // 4430us (75,29cm)
-    casos_teste[2] = 3222;   // 3222us (54,79cm)
+    casos_teste[1] = 3176;   // 3176us (54cm) 
+    casos_teste[2] = 4411;   // 4411us (75cm)
 
     // Valores iniciais
     mensurar = 0;

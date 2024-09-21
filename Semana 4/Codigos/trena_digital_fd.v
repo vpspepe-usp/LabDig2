@@ -26,7 +26,7 @@ module trena_digital_fd(
         .echo     (echo     ),
         .trigger  (s_trigger),
         .medida   (s_medida ),
-        .pronto   (medida_pronto   ),
+        .pronto   (s_medida_pronto  ),
         .db_estado()
     );
 
