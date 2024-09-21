@@ -9,7 +9,7 @@ module exp4_trena (
     output [6:0] medida1,
     output [6:0] medida2,
     output pronto,
-    output [6:0] db_estado,
+    output [6:0] db_estado
 );
 
 wire s_medida_pronto, s_envio_pronto;
@@ -28,11 +28,12 @@ trena_digital_fd FD (
     .saida_serial(saida_serial),
     .unidade(unidade),
     .dezena(dezena),
-    .centena(centena),
+    .centena(centena)
 );
 
 trena_digital_uc UC(
     .clock(clock),
+    .reset(reset),
     .mensurar(mensurar),
     .medida_pronto(s_medida_pronto),
     .envio_pronto(s_envio_pronto),
@@ -43,23 +44,23 @@ trena_digital_uc UC(
 );
 
 hexa7seg HEX_UNIDADE (
-    .entrada(s_unidade),
-    .saida(medida0)
+    .hexa(unidade),
+    .display(medida0)
 );
 
 hexa7seg HEX_DEZENA (
-    .entrada(s_dezena),
-    .saida(medida1)
+    .hexa(dezena),
+    .display(medida1)
 );
 
 hexa7seg HEX_CENTENA (
-    .entrada(s_centena),
-    .saida(medida2)
+    .hexa(centena),
+    .display(medida2)
 );
 
 hexa7seg HEX_DB_ESTADO(
-    .entrada(s_db_estado),
-    .saida(db_estado)
+    .hexa(s_db_estado),
+    .display(db_estado)
 );
 
 

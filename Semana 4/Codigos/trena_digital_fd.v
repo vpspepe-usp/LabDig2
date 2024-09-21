@@ -10,7 +10,7 @@ module trena_digital_fd(
     output saida_serial,
     output [3:0] unidade,
     output [3:0] dezena,
-    output [3:0] centena,
+    output [3:0] centena
 );
 
     wire [11:0] s_medida;
@@ -27,7 +27,7 @@ module trena_digital_fd(
         .trigger  (s_trigger),
         .medida   (s_medida ),
         .pronto   (medida_pronto   ),
-        .db_estado(s_estado )
+        .db_estado()
     );
 
     tx_serial_7O1 SER(
@@ -36,7 +36,7 @@ module trena_digital_fd(
         .partida(transmitir),
         .dados_ascii(dados_ascii),
         .saida_serial(saida_serial),
-        .pronto(envio_pronto),
+        .pronto(s_envio_pronto),
         .db_clock(),
         .db_tick(),
         .db_partida(),
@@ -49,7 +49,7 @@ module trena_digital_fd(
         .D3(7'b0100011), // # (23 em Hexa)
         .D2(s_unidade), //3Unidade
         .D1(s_dezena), //3Dezena
-        .D0(s_carrega), //3Centena
+        .D0(s_centena), //3Centena
         .SEL(seletor_mux),
         .MUX_OUT(dados_ascii)
     );
@@ -60,7 +60,7 @@ module trena_digital_fd(
     ) CONT_CHAR (
         .clock(clock),
         .zera_as(1'b0),
-        .zera_s(reset)
+        .zera_s(reset),
         .conta(s_envio_pronto),
         .Q(seletor_mux),
         .fim(),
@@ -69,7 +69,7 @@ module trena_digital_fd(
 
 assign s_unidade = {3'b011, s_medida[3:0]}; //unidade
 assign s_dezena = {3'b011, s_medida[7:4]};//dezena
-assign s_centena = {3'b011, s_medida[11:7]};//centena
+assign s_centena = {3'b011, s_medida[11:8]};//centena
 assign trigger = s_trigger;
 assign medida_pronto = s_medida_pronto;
 assign envio_pronto = s_envio_pronto;

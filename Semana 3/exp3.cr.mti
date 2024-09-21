@@ -68,6 +68,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	interface_hcsr04
 
+} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/gerador_pulso.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/gerador_pulso.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module gerador_pulso
+
+Top level modules:
+	gerador_pulso
+
 } {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/contador_m.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/contador_m.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module contador_m
@@ -82,12 +89,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	edge_detector
 
-} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/gerador_pulso.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/gerador_pulso.v}
+} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/contador_cm.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/contador_cm.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module gerador_pulso
+-- Compiling module contador_cm
 
 Top level modules:
-	gerador_pulso
+	contador_cm
 
 } {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/interface_hcsr04_tb.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/interface_hcsr04_tb.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -95,12 +102,5 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	interface_hcsr04_tb
-
-} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/contador_cm.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 3/exp3_t3b01_restored/contador_cm.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module contador_cm
-
-Top level modules:
-	contador_cm
 
 } {} {}}

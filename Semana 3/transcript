@@ -1,0 +1,404 @@
+# Loading project exp3
+# reading /home/victor/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project exp4_trena_digital
+# Compile of contador_bcd_3digitos.v was successful.
+# Compile of contador_cm.v was successful.
+# Compile of contador_cm_fd.v was successful.
+# Compile of contador_cm_uc.v was successful.
+# Compile of contador_m.v was successful.
+# Compile of deslocador_n.v was successful.
+# Compile of edge_detector.v was successful.
+# Compile of exp3_sensor.v was successful.
+# Compile of exp4_trena.v failed with 1 errors.
+# Compile of exp4_trena_tb.v failed with 1 errors.
+# Compile of gerador_pulso.v was successful.
+# Compile of hexa7seg.v was successful.
+# Compile of interface_hcsr04.v was successful.
+# Compile of interface_hcsr04_fd.v was successful.
+# Compile of interface_hcsr04_uc.v was successful.
+# Compile of mux_4x1_n.v was successful.
+# Compile of registrador_n.v was successful.
+# Compile of trena_digital_fd.v failed with 1 errors.
+# Compile of trena_digital_uc.v failed with 3 errors.
+# Compile of tx_serial_7O1.v was successful.
+# Compile of tx_serial_7O1_fd.v was successful.
+# Compile of tx_serial_uc.v was successful.
+# 22 compiles, 4 failed with 6 errors.
+# couldn't load file "/home/victor/intelFPGA/20.1/modelsim_ase/linux/ScintillaTk/libScintillaTk1.14.so": libstdc++.so.6: cannot open shared object file: No such file or directory
+# couldn't load file "/home/victor/intelFPGA/20.1/modelsim_ase/linux/ScintillaTk/libScintillaTk1.14.so": libstdc++.so.6: cannot open shared object file: No such file or directory
+# Compile of contador_bcd_3digitos.v was successful.
+# Compile of contador_cm.v was successful.
+# Compile of contador_cm_fd.v was successful.
+# Compile of contador_cm_uc.v was successful.
+# Compile of contador_m.v was successful.
+# Compile of deslocador_n.v was successful.
+# Compile of edge_detector.v was successful.
+# Compile of exp3_sensor.v was successful.
+# Compile of exp4_trena.v was successful.
+# Compile of exp4_trena_tb.v was successful.
+# Compile of gerador_pulso.v was successful.
+# Compile of hexa7seg.v was successful.
+# Compile of interface_hcsr04.v was successful.
+# Compile of interface_hcsr04_fd.v was successful.
+# Compile of interface_hcsr04_uc.v was successful.
+# Compile of mux_4x1_n.v was successful.
+# Compile of registrador_n.v was successful.
+# Compile of trena_digital_fd.v was successful.
+# Compile of trena_digital_uc.v was successful.
+# Compile of tx_serial_7O1.v was successful.
+# Compile of tx_serial_7O1_fd.v was successful.
+# Compile of tx_serial_uc.v was successful.
+# 22 compiles, 0 failed with no errors.
+vsim work.exp4_trena_tb
+# vsim work.exp4_trena_tb 
+# Start time: 19:36:38 on Sep 20,2024
+# Loading work.exp4_trena_tb
+# Loading work.exp4_trena
+# Loading work.trena_digital_fd
+# Loading work.interface_hcsr04
+# Loading work.interface_hcsr04_uc
+# Loading work.interface_hcsr04_fd
+# Loading work.gerador_pulso
+# Loading work.contador_cm
+# Loading work.contador_cm_fd
+# Loading work.contador_m
+# Loading work.contador_bcd_3digitos
+# Loading work.contador_cm_uc
+# Loading work.registrador_n
+# Loading work.tx_serial_7O1
+# Loading work.tx_serial_7O1_fd
+# Loading work.deslocador_n
+# Loading work.tx_serial_uc
+# Loading work.edge_detector
+# Loading work.hexa7seg
+# Loading work.mux_4x1_n
+# Loading work.trena_digital_uc
+add wave -position insertpoint  \
+sim:/exp4_trena_tb/clock \
+sim:/exp4_trena_tb/reset \
+sim:/exp4_trena_tb/mensurar \
+sim:/exp4_trena_tb/echo \
+sim:/exp4_trena_tb/trigger \
+sim:/exp4_trena_tb/saida_serial \
+sim:/exp4_trena_tb/medida0 \
+sim:/exp4_trena_tb/medida1 \
+sim:/exp4_trena_tb/medida2 \
+sim:/exp4_trena_tb/pronto \
+sim:/exp4_trena_tb/db_estado \
+sim:/exp4_trena_tb/casos_teste \
+sim:/exp4_trena_tb/caso \
+sim:/exp4_trena_tb/larguraPulso
+run -all
+# Inicio das simulacoes
+# Compile of contador_bcd_3digitos.v was successful.
+# Compile of contador_cm.v was successful.
+# Compile of contador_cm_fd.v was successful.
+# Compile of contador_cm_uc.v was successful.
+# Compile of contador_m.v was successful.
+# Compile of deslocador_n.v was successful.
+# Compile of edge_detector.v was successful.
+# Compile of exp3_sensor.v was successful.
+# Compile of exp4_trena.v was successful.
+# Compile of exp4_trena_tb.v was successful.
+# Compile of gerador_pulso.v was successful.
+# Compile of hexa7seg.v was successful.
+# Compile of interface_hcsr04.v was successful.
+# Compile of interface_hcsr04_fd.v was successful.
+# Compile of interface_hcsr04_uc.v was successful.
+# Compile of mux_4x1_n.v was successful.
+# Compile of registrador_n.v was successful.
+# Compile of trena_digital_fd.v was successful.
+# Compile of trena_digital_uc.v was successful.
+# Compile of tx_serial_7O1.v was successful.
+# Compile of tx_serial_7O1_fd.v was successful.
+# Compile of tx_serial_uc.v was successful.
+# 22 compiles, 0 failed with no errors.
+vsim work.exp4_trena_tb
+# End time: 19:39:48 on Sep 20,2024, Elapsed time: 0:03:10
+# Errors: 0, Warnings: 7
+# vsim work.exp4_trena_tb 
+# Start time: 19:39:48 on Sep 20,2024
+# Loading work.exp4_trena_tb
+# Loading work.exp4_trena
+# Loading work.trena_digital_fd
+# Loading work.interface_hcsr04
+# Loading work.interface_hcsr04_uc
+# Loading work.interface_hcsr04_fd
+# Loading work.gerador_pulso
+# Loading work.contador_cm
+# Loading work.contador_cm_fd
+# Loading work.contador_m
+# Loading work.contador_bcd_3digitos
+# Loading work.contador_cm_uc
+# Loading work.registrador_n
+# Loading work.tx_serial_7O1
+# Loading work.tx_serial_7O1_fd
+# Loading work.deslocador_n
+# Loading work.tx_serial_uc
+# Loading work.edge_detector
+# Loading work.hexa7seg
+# Loading work.mux_4x1_n
+# Loading work.trena_digital_uc
+add wave -position insertpoint  \
+sim:/exp4_trena_tb/clockPeriod \
+sim:/exp4_trena_tb/clock \
+sim:/exp4_trena_tb/reset \
+sim:/exp4_trena_tb/mensurar \
+sim:/exp4_trena_tb/echo \
+sim:/exp4_trena_tb/trigger \
+sim:/exp4_trena_tb/saida_serial \
+sim:/exp4_trena_tb/medida0 \
+sim:/exp4_trena_tb/medida1 \
+sim:/exp4_trena_tb/medida2 \
+sim:/exp4_trena_tb/pronto \
+sim:/exp4_trena_tb/db_estado \
+sim:/exp4_trena_tb/casos_teste \
+sim:/exp4_trena_tb/caso \
+sim:/exp4_trena_tb/larguraPulso
+run -all
+# Inicio das simulacoes
+# Caso de teste 1: 1786us
+# Fim do caso 1
+# Caso de teste 2: 3176us
+# Fim do caso 2
+# Caso de teste 3: 315us
+# Fim do caso 3
+# Fim das simulacoes
+# ** Note: $stop    : /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/exp4_trena_tb.v(98)
+#    Time: 8026770 ns  Iteration: 0  Instance: /exp4_trena_tb
+# Break in Module exp4_trena_tb at /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/exp4_trena_tb.v line 98
+# couldn't load file "/home/victor/intelFPGA/20.1/modelsim_ase/linux/ScintillaTk/libScintillaTk1.14.so": libstdc++.so.6: cannot open shared object file: No such file or directory
+# list element in quotes followed by ":" instead of space
+add wave -position insertpoint  \
+sim:/exp4_trena_tb/dut/FD/INT/s_medida
+add wave -position insertpoint  \
+sim:/exp4_trena_tb/dut/FD/INT/s_fim_medida
+restart -f
+run -all
+# Inicio das simulacoes
+# Caso de teste 1: 1786us
+# Fim do caso 1
+# Caso de teste 2: 3176us
+# Fim do caso 2
+# Caso de teste 3: 315us
+# Fim do caso 3
+# Fim das simulacoes
+# ** Note: $stop    : /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/exp4_trena_tb.v(98)
+#    Time: 8026770 ns  Iteration: 0  Instance: /exp4_trena_tb
+# Break in Module exp4_trena_tb at /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/exp4_trena_tb.v line 98
+# couldn't load file "/home/victor/intelFPGA/20.1/modelsim_ase/linux/ScintillaTk/libScintillaTk1.14.so": libstdc++.so.6: cannot open shared object file: No such file or directory
+# list element in quotes followed by ":" instead of space
+add wave -position insertpoint  \
+sim:/exp4_trena_tb/dut/UC/db_estado
+restart -f
+run -all
+# Inicio das simulacoes
+# Caso de teste 1: 1786us
+# Fim do caso 1
+# Caso de teste 2: 3176us
+# Fim do caso 2
+# Caso de teste 3: 315us
+# Fim do caso 3
+# Fim das simulacoes
+# ** Note: $stop    : /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/exp4_trena_tb.v(98)
+#    Time: 8026770 ns  Iteration: 0  Instance: /exp4_trena_tb
+# Break in Module exp4_trena_tb at /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/exp4_trena_tb.v line 98
+# couldn't load file "/home/victor/intelFPGA/20.1/modelsim_ase/linux/ScintillaTk/libScintillaTk1.14.so": libstdc++.so.6: cannot open shared object file: No such file or directory
+# list element in quotes followed by ":" instead of space
+# Compile of contador_bcd_3digitos.v was successful.
+# Compile of contador_cm.v was successful.
+# Compile of contador_cm_fd.v was successful.
+# Compile of contador_cm_uc.v was successful.
+# Compile of contador_m.v was successful.
+# Compile of deslocador_n.v was successful.
+# Compile of edge_detector.v was successful.
+# Compile of exp3_sensor.v was successful.
+# Compile of exp4_trena.v was successful.
+# Compile of exp4_trena_tb.v was successful.
+# Compile of gerador_pulso.v was successful.
+# Compile of hexa7seg.v was successful.
+# Compile of interface_hcsr04.v was successful.
+# Compile of interface_hcsr04_fd.v was successful.
+# Compile of interface_hcsr04_uc.v was successful.
+# Compile of mux_4x1_n.v was successful.
+# Compile of registrador_n.v was successful.
+# Compile of trena_digital_fd.v was successful.
+# Compile of trena_digital_uc.v was successful.
+# Compile of tx_serial_7O1.v was successful.
+# Compile of tx_serial_7O1_fd.v was successful.
+# Compile of tx_serial_uc.v was successful.
+# 22 compiles, 0 failed with no errors.
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.exp4_trena_tb
+# Loading work.exp4_trena
+# Loading work.trena_digital_fd
+# Loading work.interface_hcsr04
+# Loading work.interface_hcsr04_uc
+# Loading work.interface_hcsr04_fd
+# Loading work.gerador_pulso
+# Loading work.contador_cm
+# Loading work.contador_cm_fd
+# Loading work.contador_m
+# Loading work.contador_bcd_3digitos
+# Loading work.contador_cm_uc
+# Loading work.registrador_n
+# Loading work.tx_serial_7O1
+# Loading work.tx_serial_7O1_fd
+# Loading work.deslocador_n
+# Loading work.tx_serial_uc
+# Loading work.edge_detector
+# Loading work.hexa7seg
+# Loading work.mux_4x1_n
+# Loading work.trena_digital_uc
+run -all
+# Inicio das simulacoes
+# Caso de teste 1: 5882us
+# Fim do caso 1
+# Caso de teste 2: 3176us
+# Fim do caso 2
+# Caso de teste 3: 4411us
+# Fim do caso 3
+# Fim das simulacoes
+# ** Note: $stop    : /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/exp4_trena_tb.v(98)
+#    Time: 16218770 ns  Iteration: 0  Instance: /exp4_trena_tb
+# Break in Module exp4_trena_tb at /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/exp4_trena_tb.v line 98
+# couldn't load file "/home/victor/intelFPGA/20.1/modelsim_ase/linux/ScintillaTk/libScintillaTk1.14.so": libstdc++.so.6: cannot open shared object file: No such file or directory
+# list element in quotes followed by ":" instead of space
+add wave -position insertpoint  \
+sim:/exp4_trena_tb/dut/FD/SEL_CHAR/SEL
+add wave -position insertpoint  \
+sim:/exp4_trena_tb/dut/FD/SEL_CHAR/MUX_OUT
+restart -f
+run -all
+# Inicio das simulacoes
+# Caso de teste 1: 5882us
+# Fim do caso 1
+# Caso de teste 2: 3176us
+# Fim do caso 2
+# Caso de teste 3: 4411us
+# Fim do caso 3
+# Fim das simulacoes
+# ** Note: $stop    : /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/exp4_trena_tb.v(98)
+#    Time: 16218770 ns  Iteration: 0  Instance: /exp4_trena_tb
+# Break in Module exp4_trena_tb at /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/exp4_trena_tb.v line 98
+# couldn't load file "/home/victor/intelFPGA/20.1/modelsim_ase/linux/ScintillaTk/libScintillaTk1.14.so": libstdc++.so.6: cannot open shared object file: No such file or directory
+# list element in quotes followed by ":" instead of space
+add wave -position insertpoint  \
+sim:/exp4_trena_tb/dut/FD/unidade
+add wave -position insertpoint  \
+sim:/exp4_trena_tb/dut/FD/dezena
+add wave -position insertpoint  \
+sim:/exp4_trena_tb/dut/FD/centena
+restart -f
+run -all
+# Inicio das simulacoes
+# Caso de teste 1: 5882us
+# Fim do caso 1
+# Caso de teste 2: 3176us
+# Fim do caso 2
+# Caso de teste 3: 4411us
+# Fim do caso 3
+# Fim das simulacoes
+# ** Note: $stop    : /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/exp4_trena_tb.v(98)
+#    Time: 16218770 ns  Iteration: 0  Instance: /exp4_trena_tb
+# Break in Module exp4_trena_tb at /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/exp4_trena_tb.v line 98
+# couldn't load file "/home/victor/intelFPGA/20.1/modelsim_ase/linux/ScintillaTk/libScintillaTk1.14.so": libstdc++.so.6: cannot open shared object file: No such file or directory
+# list element in quotes followed by ":" instead of space
+# Compile of contador_bcd_3digitos.v was successful.
+# Compile of contador_cm.v was successful.
+# Compile of contador_cm_fd.v was successful.
+# Compile of contador_cm_uc.v was successful.
+# Compile of contador_m.v was successful.
+# Compile of deslocador_n.v was successful.
+# Compile of edge_detector.v was successful.
+# Compile of exp3_sensor.v was successful.
+# Compile of exp4_trena.v was successful.
+# Compile of exp4_trena_tb.v was successful.
+# Compile of gerador_pulso.v was successful.
+# Compile of hexa7seg.v was successful.
+# Compile of interface_hcsr04.v was successful.
+# Compile of interface_hcsr04_fd.v was successful.
+# Compile of interface_hcsr04_uc.v was successful.
+# Compile of mux_4x1_n.v was successful.
+# Compile of registrador_n.v was successful.
+# Compile of trena_digital_fd.v was successful.
+# Compile of trena_digital_uc.v was successful.
+# Compile of tx_serial_7O1.v was successful.
+# Compile of tx_serial_7O1_fd.v was successful.
+# Compile of tx_serial_uc.v was successful.
+# 22 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.exp4_trena_tb
+# Loading work.exp4_trena
+# Loading work.trena_digital_fd
+# Loading work.interface_hcsr04
+# Loading work.interface_hcsr04_uc
+# Loading work.interface_hcsr04_fd
+# Loading work.gerador_pulso
+# Loading work.contador_cm
+# Loading work.contador_cm_fd
+# Loading work.contador_m
+# Loading work.contador_bcd_3digitos
+# Loading work.contador_cm_uc
+# Loading work.registrador_n
+# Loading work.tx_serial_7O1
+# Loading work.tx_serial_7O1_fd
+# Loading work.deslocador_n
+# Loading work.tx_serial_uc
+# Loading work.edge_detector
+# Loading work.hexa7seg
+# Loading work.mux_4x1_n
+# Loading work.trena_digital_uc
+run -all
+# Inicio das simulacoes
+# Caso de teste 1: 5882us
+# Fim do caso 1
+# Caso de teste 2: 3176us
+# Fim do caso 2
+# Caso de teste 3: 4411us
+# Fim do caso 3
+# Fim das simulacoes
+# ** Note: $stop    : /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/exp4_trena_tb.v(98)
+#    Time: 16218770 ns  Iteration: 0  Instance: /exp4_trena_tb
+# Break in Module exp4_trena_tb at /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/exp4_trena_tb.v line 98
+# couldn't load file "/home/victor/intelFPGA/20.1/modelsim_ase/linux/ScintillaTk/libScintillaTk1.14.so": libstdc++.so.6: cannot open shared object file: No such file or directory
+# list element in quotes followed by ":" instead of space
+add wave -position insertpoint  \
+sim:/exp4_trena_tb/dut/FD/SER/db_tick
+restart -f
+run -all
+# Inicio das simulacoes
+# Caso de teste 1: 5882us
+# Fim do caso 1
+# Caso de teste 2: 3176us
+# Fim do caso 2
+# Caso de teste 3: 4411us
+# Fim do caso 3
+# Fim das simulacoes
+# ** Note: $stop    : /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/exp4_trena_tb.v(98)
+#    Time: 16218770 ns  Iteration: 0  Instance: /exp4_trena_tb
+# Break in Module exp4_trena_tb at /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/exp4_trena_tb.v line 98
+# couldn't load file "/home/victor/intelFPGA/20.1/modelsim_ase/linux/ScintillaTk/libScintillaTk1.14.so": libstdc++.so.6: cannot open shared object file: No such file or directory
+# list element in quotes followed by ":" instead of space
+add wave -position insertpoint  \
+sim:/exp4_trena_tb/dut/FD/SER/dados_ascii
+restart -f
+run -all
+# Inicio das simulacoes
+# Caso de teste 1: 5882us
+# Fim do caso 1
+# Caso de teste 2: 3176us
+# Fim do caso 2
+# Caso de teste 3: 4411us
+# Fim do caso 3
+# Fim das simulacoes
+# ** Note: $stop    : /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/exp4_trena_tb.v(98)
+#    Time: 16218770 ns  Iteration: 0  Instance: /exp4_trena_tb
+# Break in Module exp4_trena_tb at /home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 4/Codigos/exp4_trena_tb.v line 98
+# couldn't load file "/home/victor/intelFPGA/20.1/modelsim_ase/linux/ScintillaTk/libScintillaTk1.14.so": libstdc++.so.6: cannot open shared object file: No such file or directory
+# list element in quotes followed by ":" instead of space
+# End time: 21:20:10 on Sep 20,2024, Elapsed time: 1:40:22
+# Errors: 0, Warnings: 2

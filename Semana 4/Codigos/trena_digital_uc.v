@@ -1,11 +1,12 @@
 module trena_digital_uc(
     input clock,
+    input reset,
     input mensurar,
     input medida_pronto,
     input envio_pronto,
-    output medir,
-    output transmitir,
-    output pronto,
+    output reg medir,
+    output reg transmitir,
+    output reg pronto,
     output reg [3:0] db_estado
 );
 
@@ -45,7 +46,7 @@ module trena_digital_uc(
             transmite_dezena:                  Eprox = espera_transmissao_dezena;
             espera_transmissao_dezena:         Eprox = envio_pronto ? transmite_unidade : espera_transmissao_dezena;
             transmite_unidade:                 Eprox = espera_transmissao_unidade;
-            espera_transmissao_unidade:        Eprox = envio_pronto ? transmite_caracter_final : espera_transmissao_unidade
+            espera_transmissao_unidade:        Eprox = envio_pronto ? transmite_caracter_final : espera_transmissao_unidade;
             transmite_caracter_final:          Eprox = espera_transmissao_caracter_final;
             espera_transmissao_caracter_final: Eprox = envio_pronto ? fim : espera_transmissao_caracter_final;
             fim:                               Eprox = inicial;
@@ -56,7 +57,7 @@ module trena_digital_uc(
 
     // Saídas de controle
     always @(*) begin
-          medir     = (Eatual == faz_medida)    ? 1'b1 : 1'b0;
+          medir          = (Eatual == faz_medida)    ? 1'b1 : 1'b0;
 		  transmitir     = (Eatual == transmite_centena || 
                             Eatual == transmite_dezena  ||
                             Eatual == transmite_unidade ||
@@ -79,9 +80,5 @@ module trena_digital_uc(
             default:       db_estado = 4'b1110;//E
         endcase
     end
-
-endmodule
-
-
 
 endmodule
