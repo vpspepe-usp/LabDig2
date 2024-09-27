@@ -1,20 +1,19 @@
-module transmissor_ascii # (parameter N=8) 
+module transmissor_ascii
     (
         input clock,
         input reset,
         input iniciar,
-        input [6:0] dados_ascii [0:N-1],
+        input [7:0][6:0] dados_ascii ,
         output pronto,
-        output dado_serial
+        output saida_serial
     );
 
-transmissor_ascii_fd #(.N(N)) FD (
+transmissor_ascii_fd FD (
     .clock(clock),
     .reset(reset),
-    .iniciar(iniciar),
-    .dados_ascii(dados_ascii),
+    .dados_ascii(dados_ascii[0:7]),
     .pronto(pronto),
-    .dado_serial(dado_serial)
+    .saida_serial(saida_serial)
 );
 
 
