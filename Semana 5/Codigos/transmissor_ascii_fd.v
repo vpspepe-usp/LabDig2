@@ -1,7 +1,14 @@
 module transmissor_ascii_fd (
     input clock,
     input reset,
-    input [6:0] dados_ascii [0:7],
+    input [6:0] centena_angulo,
+    input [6:0] dezena_angulo,
+    input [6:0] unidade_angulo,
+    input [6:0] caractere_final_angulo,
+    input [6:0] centena_distancia,
+    input [6:0] dezena_distancia,
+    input [6:0] unidade_distancia,
+    input [6:0] caractere_final_distancia,
     input transmite,
     output fim_transmissao,
     output saida_serial
@@ -13,19 +20,19 @@ wire s_fim_transmissao;
 
 
 mux_8x1_n MUX (
-    .D7(dados_ascii[7]),
-    .D6(dados_ascii[6]),
-    .D5(dados_ascii[5]),
-    .D4(dados_ascii[4]),
-    .D3(dados_ascii[3]),
-    .D2(dados_ascii[2]),
-    .D1(dados_ascii[1]),
-    .D0(dados_ascii[0]),
+    .D0(centena_angulo),
+    .D1(dezena_angulo),
+    .D2(unidade_angulo),
+    .D3(caractere_final_angulo),
+    .D4(centena_distancia),
+    .D5(dezena_distancia),
+    .D6(unidade_distancia),
+    .D7(caractere_final_distancia),
     .SEL(sel),
     .MUX_OUT(ascii_transmitido)
 );
 
-contador_m #(.M(8), .N(7)) CONTA_SELECT
+contador_m #(.M(8), .N(3)) CONTA_SELECT
   (
     .clock(clock),
     .zera_as(),

@@ -1,18 +1,26 @@
 `timescale 1ns/1ns
 
-module transmissor_ascii_tb;
+module transmissor_ascii_tb();
 
 reg clock, reset, iniciar;
-reg [6:0] dados_ascii [0:7];
-wire saida_serial, pronto;
+reg [6:0] centena_angulo, dezena_angulo, unidade_angulo, caractere_final_angulo,
+          centena_distancia, dezena_distancia, unidade_distancia, caractere_final_distancia;
+wire dado_serial, pronto;
 
 transmissor_ascii dut (
     .clock(clock),
     .reset(reset),
     .iniciar(iniciar),
-    .dados_ascii(dados_ascii),
+    .centena_angulo(centena_angulo),
+    .dezena_angulo(dezena_angulo),
+    .unidade_angulo(unidade_angulo),
+    .caractere_final_angulo(caractere_final_angulo),
+    .centena_distancia(centena_distancia),
+    .dezena_distancia(dezena_distancia),
+    .unidade_distancia(unidade_distancia),
+    .caractere_final_distancia(caractere_final_distancia),
     .pronto(pronto),
-    .saida_serial(saida_serial)
+    .dado_serial(dado_serial)
 );
 
 // Configurações do clock
@@ -29,16 +37,18 @@ reg [31:0] larguraPulso; // Usando 32 bits para acomodar tempos maiores
 // Geração dos sinais de entrada (estímulos)
 initial begin
     $display("Inicio das simulacoes");
+    $dumpfile("vvp/transmissor_ascii_tb.vcd");
+    $dumpvars(0, transmissor_ascii_tb);
 
     // Inicialização do array de casos de teste
-    dados_ascii[0] = 7'b0110001;   // 1
-    dados_ascii[1] = 7'b0110100;   // 4
-    dados_ascii[2] = 7'b0110111;   // 7
-    dados_ascii[3] = 7'b0101100;   // ,
-    dados_ascii[4] = 7'b0110010;   // 2
-    dados_ascii[5] = 7'b0111000;   // 9
-    dados_ascii[6] = 7'b0110111;   // 7
-    dados_ascii[7] = 7'b0100011;   // #
+    centena_angulo = 7'b0110001;   // 1
+    dezena_angulo = 7'b0110100;   // 4
+    unidade_angulo = 7'b0110111;   // 7
+    caractere_final_angulo = 7'b0101100;   // ,
+    centena_distancia = 7'b0110010;   // 2
+    dezena_distancia = 7'b0111000;   // 9
+    unidade_distancia = 7'b0110111;   // 7
+    caractere_final_distancia = 7'b0100011;   // #
 
     // Valores iniciais
     iniciar = 0;
@@ -57,17 +67,9 @@ initial begin
     
     wait (pronto == 1'b1);
     $display("Fim do caso teste");
+    #(100*clockPeriod)
 
     $stop;
 end
-
-
-
-
-
-
-
-
-
 
 endmodule
