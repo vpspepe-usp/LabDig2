@@ -93,12 +93,19 @@ rom_angulos_8x24 ROM(
     transmissor_ascii # (
         .N()
     ) TRANS_ASCII (
-         .clock(clock),
-         .reset(reset),
-         .iniciar(transmitir),
-         .dados_ascii(dados_ascii),
-         .pronto(s_envio_pronto),
-         .dado_serial(saida_serial)
+        .clock(clock),
+        .reset(reset),
+        .iniciar(transmitir),
+        .centena_angulo(s_centena_angulo),
+        .dezena_angulo(s_dezena_angulo),
+        .unidade_angulo(s_unidade_angulo),
+        .caractere_final_angulo(7'b0101100), // ,
+        .centena_distancia(s_centena),
+        .dezena_distancia(s_dezena),
+        .unidade_distancia(s_unidade),
+        .caractere_final_distancia(7'b0100011), // #
+        .pronto(s_envio_pronto),
+        .dado_serial(saida_serial)
     );
 
     contador_m # (
