@@ -1,8 +1,8 @@
-.bak
-.flock
-.hdb
-.qsf
-.rpt
-.ddb
-.html
-.xml
+*.bak
+*.flock
+*.hdb
+*.qsf
+*.rpt
+*.ddb
+*.html
+*.xml

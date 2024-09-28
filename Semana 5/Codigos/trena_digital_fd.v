@@ -37,8 +37,6 @@ module trena_digital_fd(
         .dados_ascii(dados_ascii),
         .saida_serial(saida_serial),
         .pronto(s_envio_pronto),
-        .db_clock(),
-        .db_tick(),
         .db_partida(),
         .db_saida_serial(),
         .db_estado()

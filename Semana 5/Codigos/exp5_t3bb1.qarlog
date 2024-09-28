@@ -1,0 +1,45 @@
+Quartus Prime Archive log --	/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/exp5_t3bb1.qarlog
+
+Archive:	/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/exp5_t3bb1.qar
+Date:		Sat Sep 28 20:31:53 2024
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/circuito_pwm.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/contador_bcd_3digitos.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/contador_cm.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/contador_cm_fd.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/contador_cm_uc.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/contador_m.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/contadorg_updown_m.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/controle_servo_3.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/deslocador_n.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/edge_detector.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/exp_5.qpf
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/exp_5.qsf
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/gerador_pulso.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/hexa7seg.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/interface_hcsr04.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/interface_hcsr04_fd.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/interface_hcsr04_uc.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/mux_4x1_n.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/mux_8x1_n.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/registrador_n.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/rom_angulos_8x24.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/sonar.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/sonar_fd.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/sonar_tb.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/sonar_uc.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/transmissor_ascii.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/transmissor_ascii_fd.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/transmissor_ascii_uc.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/trena_digital_fd.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/trena_digital_uc.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/tx_serial_7O1.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/tx_serial_7O1_fd.v
+/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/tx_serial_uc.v
+/home/victor/intelFPGA_lite/20.1/quartus/linux64/assignment_defaults.qdf
+	======= Total: 34 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

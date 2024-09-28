@@ -22,7 +22,7 @@ module sonar_fd(
     wire [11:0] s_medida;
     wire s_trigger, s_medida_pronto, s_envio_pronto, s_giro_pronto;
     wire [1:0] seletor_mux;
-    wire [6:0] dados_ascii, s_unidade, s_dezena, s_centena;
+    wire [6:0] s_unidade, s_dezena, s_centena;
     wire [6:0] s_unidade_angulo, s_dezena_angulo, s_centena_angulo;
     wire [2:0] s_posicao;
     wire [23:0] s_saida_rom;
@@ -51,8 +51,8 @@ controle_servo_3 SERVO (
 );
 
 contadorg_updown_m # (
-.M(50),  
-.N(6)
+.M(8),  
+.N(3)
 ) CONT_UP_DOWN (
     .clock(clock),
     .zera_as(1'b0),
@@ -66,7 +66,7 @@ contadorg_updown_m # (
 );
 
 contador_m # (
-    .M(100_000_000),
+    .M(2_000_000),
     .N(27)
 ) CONT_2_S (
     .clock(clock),
@@ -83,9 +83,7 @@ rom_angulos_8x24 ROM(
     .saida(s_saida_rom)
 );
 
-transmissor_ascii # (
-    .N()
-) TRANS_ASCII (
+transmissor_ascii TRANS_ASCII (
     .clock(clock),
     .reset(reset),
     .iniciar(transmitir),
@@ -99,19 +97,6 @@ transmissor_ascii # (
     .caractere_final_distancia(7'b0100011), // #
     .pronto(s_envio_pronto),
     .dado_serial(saida_serial)
-);
-
-contador_m # (
-    .M(4),
-    .N(2)
-) CONT_CHAR (
-    .clock(clock),
-    .zera_as(1'b0),
-    .zera_s(reset),
-    .conta(s_envio_pronto),
-    .Q(seletor_mux),
-    .fim(),
-    .meio()
 );
 
 assign s_unidade = {3'b011, s_medida[3:0]}; //unidade
@@ -128,8 +113,8 @@ assign centena = s_centena;
 //303230 -> 30|32|30 em ASCII = 0(011)(0000)|0(011)(0010)|0(011)(0000) 
 //por isso ignora o bit fora do parenteses
 
-assign s_unidade_angulo = {s_saida_rom[6:0]}
-assign s_dezena_angulo = {s_saida_rom[14:8]}
-assign s_centena_angulo = {s_saida_rom[22:16]}
+assign s_unidade_angulo = {s_saida_rom[6:0]};
+assign s_dezena_angulo = {s_saida_rom[14:8]};
+assign s_centena_angulo = {s_saida_rom[22:16]};
 
 endmodule
