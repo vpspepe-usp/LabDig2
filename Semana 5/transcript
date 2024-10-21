@@ -1,0 +1,564 @@
+# Loading project exp_5_modelsim
+# reading /home/victor/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project torreta_simulation
+# Compile of circuito_pwm_20_160.v was successful.
+# Compile of contador_bcd_3digitos.v was successful.
+# Compile of contador_cm.v was successful.
+# Compile of contador_cm_fd.v was successful.
+# Compile of contador_cm_uc.v was successful.
+# Compile of contador_m.v was successful.
+# Compile of contador_soma_sub_m.v was successful.
+# Compile of contadorg_updown_m.v was successful.
+# Compile of controle_servo_5.v was successful.
+# Compile of deslocador_n.v was successful.
+# Compile of edge_detector.v was successful.
+# Compile of gerador_pulso.v was successful.
+# Compile of hexa7seg.v was successful.
+# Compile of interface_hcsr04.v was successful.
+# Compile of interface_hcsr04_fd.v was successful.
+# Compile of interface_hcsr04_uc.v was successful.
+# Compile of mux_4x1_n.v was successful.
+# Compile of mux_8x1_n.v was successful.
+# Compile of registrador_n.v was successful.
+# Compile of rom_angulos_8x24.v was successful.
+# Compile of rom_angulos_29x24.v was successful.
+# Compile of torreta.v failed with 1 errors.
+# Compile of torreta_fd.v was successful.
+# Compile of torreta_tb.v was successful.
+# Compile of torreta_uc.v was successful.
+# Compile of transmissor_ascii.v was successful.
+# Compile of transmissor_ascii_fd.v was successful.
+# Compile of transmissor_ascii_uc.v was successful.
+# Compile of tx_serial_7O1.v was successful.
+# Compile of tx_serial_7O1_fd.v was successful.
+# Compile of tx_serial_uc.v was successful.
+# 31 compiles, 1 failed with 1 error.
+# Compile of circuito_pwm_20_160.v was successful.
+# Compile of contador_bcd_3digitos.v was successful.
+# Compile of contador_cm.v was successful.
+# Compile of contador_cm_fd.v was successful.
+# Compile of contador_cm_uc.v was successful.
+# Compile of contador_m.v was successful.
+# Compile of contador_soma_sub_m.v was successful.
+# Compile of contadorg_updown_m.v was successful.
+# Compile of controle_servo_5.v was successful.
+# Compile of deslocador_n.v was successful.
+# Compile of edge_detector.v was successful.
+# Compile of gerador_pulso.v was successful.
+# Compile of hexa7seg.v was successful.
+# Compile of interface_hcsr04.v was successful.
+# Compile of interface_hcsr04_fd.v was successful.
+# Compile of interface_hcsr04_uc.v was successful.
+# Compile of mux_4x1_n.v was successful.
+# Compile of mux_8x1_n.v was successful.
+# Compile of registrador_n.v was successful.
+# Compile of rom_angulos_8x24.v was successful.
+# Compile of rom_angulos_29x24.v was successful.
+# Compile of torreta.v was successful.
+# Compile of torreta_fd.v was successful.
+# Compile of torreta_tb.v was successful.
+# Compile of torreta_uc.v was successful.
+# Compile of transmissor_ascii.v was successful.
+# Compile of transmissor_ascii_fd.v was successful.
+# Compile of transmissor_ascii_uc.v was successful.
+# Compile of tx_serial_7O1.v was successful.
+# Compile of tx_serial_7O1_fd.v was successful.
+# Compile of tx_serial_uc.v was successful.
+# 31 compiles, 0 failed with no errors.
+vsim work.torreta_tb
+# vsim work.torreta_tb 
+# Start time: 11:00:12 on Oct 21,2024
+# Loading work.torreta_tb
+# Loading work.torreta
+# Loading work.torreta_uc
+# Loading work.torreta_fd
+# Loading work.interface_hcsr04
+# Loading work.interface_hcsr04_uc
+# Loading work.interface_hcsr04_fd
+# Loading work.gerador_pulso
+# Loading work.contador_cm
+# Loading work.contador_cm_fd
+# Loading work.contador_m
+# Loading work.contador_bcd_3digitos
+# Loading work.contador_cm_uc
+# Loading work.registrador_n
+# Loading work.controle_servo_5
+# Loading work.circuito_pwm_20_160
+# Loading work.contadorg_updown_m
+# Loading work.edge_detector
+# Loading work.contador_soma_sub_m
+# Loading work.rom_angulos_29x24
+# Loading work.transmissor_ascii
+# Loading work.transmissor_ascii_fd
+# Loading work.mux_8x1_n
+# Loading work.tx_serial_7O1
+# Loading work.tx_serial_7O1_fd
+# Loading work.deslocador_n
+# Loading work.tx_serial_uc
+# Loading work.transmissor_ascii_uc
+# Loading work.hexa7seg
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 20, found 16.
+#    Time: 0 ns  Iteration: 0  Instance: /torreta_tb/DUT File: /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v Line: 21
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_trigger'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_pwm'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_saida_serial'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_echo'.
+add wave -position insertpoint  \
+sim:/torreta_tb/clock \
+sim:/torreta_tb/reset \
+sim:/torreta_tb/ligar \
+sim:/torreta_tb/echo \
+sim:/torreta_tb/conta_municao \
+sim:/torreta_tb/seletor_hexa \
+sim:/torreta_tb/trigger \
+sim:/torreta_tb/pwm \
+sim:/torreta_tb/saida_serial \
+sim:/torreta_tb/fim_posicao \
+sim:/torreta_tb/ameaca_detectada \
+sim:/torreta_tb/db_estado \
+sim:/torreta_tb/db_centena \
+sim:/torreta_tb/db_dezena \
+sim:/torreta_tb/db_unidade \
+sim:/torreta_tb/hex_contagem_municao \
+sim:/torreta_tb/caso
+run -all
+# Inicio das simulacoes
+# Caso de teste 1: 5882us
+add wave -position insertpoint  \
+sim:/torreta_tb/DUT/UC/Eatual
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 20, found 16.
+#    Time: 0 ns  Iteration: 0  Instance: /torreta_tb/DUT File: /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v Line: 21
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_trigger'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_pwm'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_saida_serial'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_echo'.
+run -all
+# Inicio das simulacoes
+# Caso de teste 1: 5882us
+# Compile of torreta_fd.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.torreta_fd
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 20, found 16.
+#    Time: 0 ns  Iteration: 0  Instance: /torreta_tb/DUT File: /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v Line: 21
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_trigger'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_pwm'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_saida_serial'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_echo'.
+run -all
+# Inicio das simulacoes
+# Caso de teste 1: 5882us
+# Fim do caso 1
+# Caso de teste 2: 4430us
+# Fim do caso 2
+# Caso de teste 3: 2058us
+# Compile of torreta_fd.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.torreta_fd
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 20, found 16.
+#    Time: 0 ns  Iteration: 0  Instance: /torreta_tb/DUT File: /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v Line: 21
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_trigger'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_pwm'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_saida_serial'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_echo'.
+run -all
+# Inicio das simulacoes
+# Caso de teste 1: 5882us
+# Fim do caso 1
+# Caso de teste 2: 4430us
+# Fim do caso 2
+# Caso de teste 3: 2058us
+# Compile of torreta_fd.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.torreta_fd
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 20, found 16.
+#    Time: 0 ns  Iteration: 0  Instance: /torreta_tb/DUT File: /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v Line: 21
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_trigger'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_pwm'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_saida_serial'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_echo'.
+run -all
+# Inicio das simulacoes
+# Caso de teste 1: 5882us
+# Fim do caso 1
+# Caso de teste 2: 4430us
+# Fim do caso 2
+# Caso de teste 3: 2058us
+# Fim do caso 3
+# Fim das simulacoes
+# ** Note: $stop    : /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(124)
+#    Time: 333631630 ns  Iteration: 0  Instance: /torreta_tb
+# Break in Module torreta_tb at /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v line 124
+# couldn't load file "/home/victor/intelFPGA/20.1/modelsim_ase/linux/ScintillaTk/libScintillaTk1.14.so": libstdc++.so.6: cannot open shared object file: No such file or directory
+# list element in quotes followed by ":" instead of space
+add wave -position insertpoint  \
+sim:/torreta_tb/DUT/FD/s_medida
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 20, found 16.
+#    Time: 0 ns  Iteration: 0  Instance: /torreta_tb/DUT File: /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v Line: 21
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_trigger'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_pwm'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_saida_serial'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_echo'.
+run -all
+# Inicio das simulacoes
+# Caso de teste 1: 5882us
+# Fim do caso 1
+# Caso de teste 2: 4430us
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 20, found 16.
+#    Time: 0 ns  Iteration: 0  Instance: /torreta_tb/DUT File: /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v Line: 21
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_trigger'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_pwm'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_saida_serial'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_echo'.
+run -all
+# Inicio das simulacoes
+# Caso de teste 1: 5882us
+# Compile of torreta_fd.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.torreta_fd
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 20, found 16.
+#    Time: 0 ns  Iteration: 0  Instance: /torreta_tb/DUT File: /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v Line: 21
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_trigger'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_pwm'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_saida_serial'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_echo'.
+run -all
+# Inicio das simulacoes
+# Caso de teste 1: 5882us
+# Fim do caso 1
+# Caso de teste 2: 4430us
+# Fim do caso 2
+# Caso de teste 3: 2058us
+# Fim do caso 3
+# Fim das simulacoes
+# ** Note: $stop    : /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(124)
+#    Time: 33631630 ns  Iteration: 0  Instance: /torreta_tb
+# Break in Module torreta_tb at /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v line 124
+# couldn't load file "/home/victor/intelFPGA/20.1/modelsim_ase/linux/ScintillaTk/libScintillaTk1.14.so": libstdc++.so.6: cannot open shared object file: No such file or directory
+# list element in quotes followed by ":" instead of space
+add wave -position insertpoint  \
+sim:/torreta_tb/DUT/FD/INT/medir
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 20, found 16.
+#    Time: 0 ns  Iteration: 0  Instance: /torreta_tb/DUT File: /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v Line: 21
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_trigger'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_pwm'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_saida_serial'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_echo'.
+run -all
+# Inicio das simulacoes
+# Caso de teste 1: 5882us
+# Fim do caso 1
+# Caso de teste 2: 4430us
+# Fim do caso 2
+# Caso de teste 3: 2058us
+# Fim do caso 3
+# Fim das simulacoes
+# ** Note: $stop    : /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(124)
+#    Time: 33631630 ns  Iteration: 0  Instance: /torreta_tb
+# Break in Module torreta_tb at /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v line 124
+# couldn't load file "/home/victor/intelFPGA/20.1/modelsim_ase/linux/ScintillaTk/libScintillaTk1.14.so": libstdc++.so.6: cannot open shared object file: No such file or directory
+# list element in quotes followed by ":" instead of space
+# Compile of torreta_fd.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.torreta_fd
+# ** Error: (vsim-3033) Instantiation of 'registrador_we' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /torreta_tb/DUT/FD File: /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_fd.v Line: 182
+#         Searched libraries:
+#             /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/work
+# Load canceled
+restart -f
+# No Design Loaded!
+vsim work.torreta_tb
+# vsim work.torreta_tb 
+# Start time: 11:00:12 on Oct 21,2024
+# Loading work.torreta_tb
+# Loading work.torreta
+# Loading work.torreta_uc
+# Loading work.torreta_fd
+# Loading work.interface_hcsr04
+# Loading work.interface_hcsr04_uc
+# Loading work.interface_hcsr04_fd
+# Loading work.gerador_pulso
+# Loading work.contador_cm
+# Loading work.contador_cm_fd
+# Loading work.contador_m
+# Loading work.contador_bcd_3digitos
+# Loading work.contador_cm_uc
+# Loading work.registrador_n
+# Loading work.controle_servo_5
+# Loading work.circuito_pwm_20_160
+# Loading work.contadorg_updown_m
+# Loading work.edge_detector
+# Loading work.contador_soma_sub_m
+# Loading work.rom_angulos_29x24
+# Loading work.transmissor_ascii
+# Loading work.transmissor_ascii_fd
+# Loading work.mux_8x1_n
+# Loading work.tx_serial_7O1
+# Loading work.tx_serial_7O1_fd
+# Loading work.deslocador_n
+# Loading work.tx_serial_uc
+# Loading work.transmissor_ascii_uc
+# ** Error: (vsim-3033) Instantiation of 'registrador_we' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /torreta_tb/DUT/FD File: /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_fd.v Line: 182
+#         Searched libraries:
+#             /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/work
+# Loading work.hexa7seg
+# Error loading design
+# End time: 12:06:23 on Oct 21,2024, Elapsed time: 1:06:11
+# Errors: 2, Warnings: 1
+# Compile of circuito_pwm_20_160.v was successful.
+# Compile of contador_bcd_3digitos.v was successful.
+# Compile of contador_cm.v was successful.
+# Compile of contador_cm_fd.v was successful.
+# Compile of contador_cm_uc.v was successful.
+# Compile of contador_m.v was successful.
+# Compile of contador_soma_sub_m.v was successful.
+# Compile of contadorg_updown_m.v was successful.
+# Compile of controle_servo_5.v was successful.
+# Compile of deslocador_n.v was successful.
+# Compile of edge_detector.v was successful.
+# Compile of gerador_pulso.v was successful.
+# Compile of hexa7seg.v was successful.
+# Compile of interface_hcsr04.v was successful.
+# Compile of interface_hcsr04_fd.v was successful.
+# Compile of interface_hcsr04_uc.v was successful.
+# Compile of mux_4x1_n.v was successful.
+# Compile of mux_8x1_n.v was successful.
+# Compile of registrador_n.v was successful.
+# Compile of rom_angulos_8x24.v was successful.
+# Compile of rom_angulos_29x24.v was successful.
+# Compile of torreta.v was successful.
+# Compile of torreta_fd.v was successful.
+# Compile of torreta_tb.v was successful.
+# Compile of torreta_uc.v was successful.
+# Compile of transmissor_ascii.v was successful.
+# Compile of transmissor_ascii_fd.v was successful.
+# Compile of transmissor_ascii_uc.v was successful.
+# Compile of tx_serial_7O1.v was successful.
+# Compile of tx_serial_7O1_fd.v was successful.
+# Compile of tx_serial_uc.v was successful.
+# 31 compiles, 0 failed with no errors.
+vsim work.torreta_tb
+# vsim work.torreta_tb 
+# Start time: 12:06:43 on Oct 21,2024
+# Loading work.torreta_tb
+# Loading work.torreta
+# Loading work.torreta_uc
+# Loading work.torreta_fd
+# Loading work.interface_hcsr04
+# Loading work.interface_hcsr04_uc
+# Loading work.interface_hcsr04_fd
+# Loading work.gerador_pulso
+# Loading work.contador_cm
+# Loading work.contador_cm_fd
+# Loading work.contador_m
+# Loading work.contador_bcd_3digitos
+# Loading work.contador_cm_uc
+# Loading work.registrador_n
+# Loading work.controle_servo_5
+# Loading work.circuito_pwm_20_160
+# Loading work.contadorg_updown_m
+# Loading work.edge_detector
+# Loading work.contador_soma_sub_m
+# Loading work.rom_angulos_29x24
+# Loading work.transmissor_ascii
+# Loading work.transmissor_ascii_fd
+# Loading work.mux_8x1_n
+# Loading work.tx_serial_7O1
+# Loading work.tx_serial_7O1_fd
+# Loading work.deslocador_n
+# Loading work.tx_serial_uc
+# Loading work.transmissor_ascii_uc
+# ** Error: (vsim-3033) Instantiation of 'registrador_we' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /torreta_tb/DUT/FD File: /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_fd.v Line: 182
+#         Searched libraries:
+#             /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/work
+# Loading work.hexa7seg
+# Error loading design
+# End time: 12:06:44 on Oct 21,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# A time value could not be extracted from the current line
+# Compile of circuito_pwm_20_160.v was successful.
+# Compile of contador_bcd_3digitos.v was successful.
+# Compile of contador_cm.v was successful.
+# Compile of contador_cm_fd.v was successful.
+# Compile of contador_cm_uc.v was successful.
+# Compile of contador_m.v was successful.
+# Compile of contador_soma_sub_m.v was successful.
+# Compile of contadorg_updown_m.v was successful.
+# Compile of controle_servo_5.v was successful.
+# Compile of deslocador_n.v was successful.
+# Compile of edge_detector.v was successful.
+# Compile of gerador_pulso.v was successful.
+# Compile of hexa7seg.v was successful.
+# Compile of interface_hcsr04.v was successful.
+# Compile of interface_hcsr04_fd.v was successful.
+# Compile of interface_hcsr04_uc.v was successful.
+# Compile of mux_4x1_n.v was successful.
+# Compile of mux_8x1_n.v was successful.
+# Compile of registrador_n.v was successful.
+# Compile of rom_angulos_8x24.v was successful.
+# Compile of rom_angulos_29x24.v was successful.
+# Compile of torreta.v was successful.
+# Compile of torreta_fd.v was successful.
+# Compile of torreta_tb.v was successful.
+# Compile of torreta_uc.v was successful.
+# Compile of transmissor_ascii.v was successful.
+# Compile of transmissor_ascii_fd.v was successful.
+# Compile of transmissor_ascii_uc.v was successful.
+# Compile of tx_serial_7O1.v was successful.
+# Compile of tx_serial_7O1_fd.v was successful.
+# Compile of tx_serial_uc.v was successful.
+# Compile of registrador_m_we.v was successful.
+# 32 compiles, 0 failed with no errors.
+vsim work.torreta_tb
+# vsim work.torreta_tb 
+# Start time: 12:08:45 on Oct 21,2024
+# Loading work.torreta_tb
+# Loading work.torreta
+# Loading work.torreta_uc
+# Loading work.torreta_fd
+# Loading work.interface_hcsr04
+# Loading work.interface_hcsr04_uc
+# Loading work.interface_hcsr04_fd
+# Loading work.gerador_pulso
+# Loading work.contador_cm
+# Loading work.contador_cm_fd
+# Loading work.contador_m
+# Loading work.contador_bcd_3digitos
+# Loading work.contador_cm_uc
+# Loading work.registrador_n
+# Loading work.controle_servo_5
+# Loading work.circuito_pwm_20_160
+# Loading work.contadorg_updown_m
+# Loading work.edge_detector
+# Loading work.contador_soma_sub_m
+# Loading work.rom_angulos_29x24
+# Loading work.transmissor_ascii
+# Loading work.transmissor_ascii_fd
+# Loading work.mux_8x1_n
+# Loading work.tx_serial_7O1
+# Loading work.tx_serial_7O1_fd
+# Loading work.deslocador_n
+# Loading work.tx_serial_uc
+# Loading work.transmissor_ascii_uc
+# Loading work.registrador_m_we
+# Loading work.hexa7seg
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 20, found 16.
+#    Time: 0 ns  Iteration: 0  Instance: /torreta_tb/DUT File: /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v Line: 21
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_trigger'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_pwm'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_saida_serial'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_echo'.
+add wave -position insertpoint  \
+sim:/torreta_tb/clock \
+sim:/torreta_tb/reset \
+sim:/torreta_tb/ligar \
+sim:/torreta_tb/echo \
+sim:/torreta_tb/conta_municao \
+sim:/torreta_tb/seletor_hexa \
+sim:/torreta_tb/trigger \
+sim:/torreta_tb/pwm \
+sim:/torreta_tb/saida_serial \
+sim:/torreta_tb/fim_posicao \
+sim:/torreta_tb/ameaca_detectada \
+sim:/torreta_tb/db_estado \
+sim:/torreta_tb/db_centena \
+sim:/torreta_tb/db_dezena \
+sim:/torreta_tb/db_unidade \
+sim:/torreta_tb/hex_contagem_municao \
+sim:/torreta_tb/caso
+add wave -position insertpoint  \
+sim:/torreta_tb/DUT/UC/Eatual
+add wave -position insertpoint  \
+sim:/torreta_tb/DUT/FD/unidade
+add wave -position insertpoint  \
+sim:/torreta_tb/DUT/FD/dezena
+add wave -position insertpoint  \
+sim:/torreta_tb/DUT/FD/centena
+run -all
+# Inicio das simulacoes
+# Caso de teste 1: 5882us
+# Fim do caso 1
+# Caso de teste 2: 4430us
+# Fim do caso 2
+# Caso de teste 3: 2058us
+# Fim do caso 3
+# Fim das simulacoes
+# ** Note: $stop    : /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(124)
+#    Time: 33631630 ns  Iteration: 0  Instance: /torreta_tb
+# Break in Module torreta_tb at /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v line 124
+# couldn't load file "/home/victor/intelFPGA/20.1/modelsim_ase/linux/ScintillaTk/libScintillaTk1.14.so": libstdc++.so.6: cannot open shared object file: No such file or directory
+# list element in quotes followed by ":" instead of space
+add wave -position insertpoint  \
+sim:/torreta_tb/DUT/FD/contagem_municao
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 20, found 16.
+#    Time: 0 ns  Iteration: 0  Instance: /torreta_tb/DUT File: /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v Line: 21
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_trigger'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_pwm'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_saida_serial'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_echo'.
+# Compile of torreta_tb.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.torreta_tb
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 20, found 16.
+#    Time: 0 ns  Iteration: 0  Instance: /torreta_tb/DUT File: /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v Line: 21
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_trigger'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_pwm'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_saida_serial'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_echo'.
+run -all
+# Inicio das simulacoes
+# Caso de teste 1: 5882us
+# Fim do caso 1
+# Caso de teste 2: 4430us
+# Fim do caso 2
+# Caso de teste 3: 2058us
+# Fim do caso 3
+# Caso de teste 4: 1235us
+# Fim do caso 4
+# Caso de teste 5: xus
+# Compile of torreta_tb.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.torreta_tb
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 20, found 16.
+#    Time: 0 ns  Iteration: 0  Instance: /torreta_tb/DUT File: /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v Line: 21
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_trigger'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_pwm'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_saida_serial'.
+# ** Warning: (vsim-3722) /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(21): [TFMPC] - Missing connection for port 'db_echo'.
+run -all
+# Inicio das simulacoes
+# Caso de teste 1: 5882us
+# Fim do caso 1
+# Caso de teste 2: 4430us
+# Fim do caso 2
+# Caso de teste 3: 2058us
+# Fim do caso 3
+# Caso de teste 4: 1235us
+# Fim do caso 4
+# Caso de teste 5: 5882us
+# Fim do caso 5
+# Fim das simulacoes
+# ** Note: $stop    : /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v(125)
+#    Time: 59917430 ns  Iteration: 0  Instance: /torreta_tb
+# Break in Module torreta_tb at /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v line 125
+# couldn't load file "/home/victor/intelFPGA/20.1/modelsim_ase/linux/ScintillaTk/libScintillaTk1.14.so": libstdc++.so.6: cannot open shared object file: No such file or directory
+# list element in quotes followed by ":" instead of space

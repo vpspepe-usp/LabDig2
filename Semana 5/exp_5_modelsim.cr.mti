@@ -82,13 +82,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	interface_hcsr04
 
-} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/deslocador_n.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/deslocador_n.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module deslocador_n
-
-Top level modules:
-	deslocador_n
-
 } {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/circuito_pwm.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/circuito_pwm.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module circuito_pwm
@@ -96,26 +89,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	circuito_pwm
 
-} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/gerador_pulso.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/gerador_pulso.v}
+} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/deslocador_n.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/deslocador_n.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module gerador_pulso
+-- Compiling module deslocador_n
 
 Top level modules:
-	gerador_pulso
-
-} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/edge_detector.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/edge_detector.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module edge_detector
-
-Top level modules:
-	edge_detector
-
-} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/controle_servo_3.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/controle_servo_3.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module controle_servo_3
-
-Top level modules:
-	controle_servo_3
+	deslocador_n
 
 } {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/contador_m.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/contador_m.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -124,19 +103,33 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	contador_m
 
+} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/controle_servo_3.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/controle_servo_3.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controle_servo_3
+
+Top level modules:
+	controle_servo_3
+
+} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/edge_detector.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/edge_detector.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module edge_detector
+
+Top level modules:
+	edge_detector
+
+} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/gerador_pulso.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/gerador_pulso.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module gerador_pulso
+
+Top level modules:
+	gerador_pulso
+
 } {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/trena_digital_fd.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/trena_digital_fd.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module trena_digital_fd
 
 Top level modules:
 	trena_digital_fd
-
-} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/contadorg_updown_m_tb.sv} {1 {vlog -work work -sv -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/contadorg_updown_m_tb.sv}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module contadorg_updown_m_tb
-
-Top level modules:
-	contadorg_updown_m_tb
 
 } {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/contador_cm.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/contador_cm.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -145,19 +138,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	contador_cm
 
-} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/sonar_uc.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/sonar_uc.v}
+} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/contadorg_updown_m_tb.sv} {1 {vlog -work work -sv -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/contadorg_updown_m_tb.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module sonar_uc
+-- Compiling module contadorg_updown_m_tb
 
 Top level modules:
-	sonar_uc
-
-} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/transmissor_ascii_tb.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/transmissor_ascii_tb.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module transmissor_ascii_tb
-
-Top level modules:
-	transmissor_ascii_tb
+	contadorg_updown_m_tb
 
 } {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/contador_cm_fd.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/contador_cm_fd.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -166,26 +152,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	contador_cm_fd
 
-} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/rom_angulos_8x24.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/rom_angulos_8x24.v}
+} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/transmissor_ascii_tb.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/transmissor_ascii_tb.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module rom_angulos_8x24
+-- Compiling module transmissor_ascii_tb
 
 Top level modules:
-	rom_angulos_8x24
+	transmissor_ascii_tb
 
-} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/registrador_n.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/registrador_n.v}
+} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/sonar_uc.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/sonar_uc.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module registrador_n
+-- Compiling module sonar_uc
 
 Top level modules:
-	registrador_n
-
-} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/mux_4x1_n.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/mux_4x1_n.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module mux_4x1_n
-
-Top level modules:
-	mux_4x1_n
+	sonar_uc
 
 } {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/controle_servo_3_tb.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/controle_servo_3_tb.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -194,19 +173,33 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	controle_servo_3_tb
 
+} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/mux_4x1_n.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/mux_4x1_n.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux_4x1_n
+
+Top level modules:
+	mux_4x1_n
+
+} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/registrador_n.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/registrador_n.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module registrador_n
+
+Top level modules:
+	registrador_n
+
+} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/rom_angulos_8x24.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/rom_angulos_8x24.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module rom_angulos_8x24
+
+Top level modules:
+	rom_angulos_8x24
+
 } {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/hexa7seg.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/hexa7seg.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module hexa7seg
 
 Top level modules:
 	hexa7seg
-
-} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/transmissor_ascii.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/transmissor_ascii.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module transmissor_ascii
-
-Top level modules:
-	transmissor_ascii
 
 } {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/interface_hcsr04_fd.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/interface_hcsr04_fd.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -215,12 +208,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	interface_hcsr04_fd
 
-} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/trena_digital_uc.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/trena_digital_uc.v}
+} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/transmissor_ascii.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/transmissor_ascii.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module trena_digital_uc
+-- Compiling module transmissor_ascii
 
 Top level modules:
-	trena_digital_uc
+	transmissor_ascii
 
 } {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/transmissor_ascii_fd.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/transmissor_ascii_fd.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -229,12 +222,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	transmissor_ascii_fd
 
-} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/mux_8x1_n.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/mux_8x1_n.v}
+} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/trena_digital_uc.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/trena_digital_uc.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module mux_8x1_n
+-- Compiling module trena_digital_uc
 
 Top level modules:
-	mux_8x1_n
+	trena_digital_uc
 
 } {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/contador_bcd_3digitos.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/contador_bcd_3digitos.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -242,5 +235,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	contador_bcd_3digitos
+
+} {} {}} {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/mux_8x1_n.v} {1 {vlog -work work -stats=none {/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5/Codigos/mux_8x1_n.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux_8x1_n
+
+Top level modules:
+	mux_8x1_n
 
 } {} {}}

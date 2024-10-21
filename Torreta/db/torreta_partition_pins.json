@@ -1,0 +1,209 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "trigger",
+					"strict" : false
+				},
+				{
+					"name" : "pwm",
+					"strict" : false
+				},
+				{
+					"name" : "saida_serial",
+					"strict" : false
+				},
+				{
+					"name" : "fim_posicao",
+					"strict" : false
+				},
+				{
+					"name" : "ameaca_detectada",
+					"strict" : false
+				},
+				{
+					"name" : "db_trigger",
+					"strict" : false
+				},
+				{
+					"name" : "db_pwm",
+					"strict" : false
+				},
+				{
+					"name" : "db_saida_serial",
+					"strict" : false
+				},
+				{
+					"name" : "db_echo",
+					"strict" : false
+				},
+				{
+					"name" : "db_estado[0]",
+					"strict" : false
+				},
+				{
+					"name" : "db_estado[1]",
+					"strict" : false
+				},
+				{
+					"name" : "db_estado[2]",
+					"strict" : false
+				},
+				{
+					"name" : "db_estado[3]",
+					"strict" : false
+				},
+				{
+					"name" : "db_estado[4]",
+					"strict" : false
+				},
+				{
+					"name" : "db_estado[5]",
+					"strict" : false
+				},
+				{
+					"name" : "db_estado[6]",
+					"strict" : false
+				},
+				{
+					"name" : "db_centena[0]",
+					"strict" : false
+				},
+				{
+					"name" : "db_centena[1]",
+					"strict" : false
+				},
+				{
+					"name" : "db_centena[2]",
+					"strict" : false
+				},
+				{
+					"name" : "db_centena[3]",
+					"strict" : false
+				},
+				{
+					"name" : "db_centena[4]",
+					"strict" : false
+				},
+				{
+					"name" : "db_centena[5]",
+					"strict" : false
+				},
+				{
+					"name" : "db_centena[6]",
+					"strict" : false
+				},
+				{
+					"name" : "db_dezena[0]",
+					"strict" : false
+				},
+				{
+					"name" : "db_dezena[1]",
+					"strict" : false
+				},
+				{
+					"name" : "db_dezena[2]",
+					"strict" : false
+				},
+				{
+					"name" : "db_dezena[3]",
+					"strict" : false
+				},
+				{
+					"name" : "db_dezena[4]",
+					"strict" : false
+				},
+				{
+					"name" : "db_dezena[5]",
+					"strict" : false
+				},
+				{
+					"name" : "db_dezena[6]",
+					"strict" : false
+				},
+				{
+					"name" : "db_unidade[0]",
+					"strict" : false
+				},
+				{
+					"name" : "db_unidade[1]",
+					"strict" : false
+				},
+				{
+					"name" : "db_unidade[2]",
+					"strict" : false
+				},
+				{
+					"name" : "db_unidade[3]",
+					"strict" : false
+				},
+				{
+					"name" : "db_unidade[4]",
+					"strict" : false
+				},
+				{
+					"name" : "db_unidade[5]",
+					"strict" : false
+				},
+				{
+					"name" : "db_unidade[6]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_contagem_municao[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_contagem_municao[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_contagem_municao[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_contagem_municao[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_contagem_municao[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_contagem_municao[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_contagem_municao[6]",
+					"strict" : false
+				},
+				{
+					"name" : "echo",
+					"strict" : false
+				},
+				{
+					"name" : "seletor_hexa",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "ligar",
+					"strict" : false
+				},
+				{
+					"name" : "conta_municao",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
