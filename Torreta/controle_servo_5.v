@@ -4,7 +4,7 @@ module controle_servo_5 (
  input [4:0] posicao,
  output controle,
  output db_reset,
- output [2:0] db_posicao,
+ output [4:0] db_posicao,
  output db_controle
 );
 

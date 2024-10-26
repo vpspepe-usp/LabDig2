@@ -36,7 +36,6 @@ module torreta_fd #(parameter M_MUNICAO = 16,
     wire [11:0] s_medida;
     wire s_trigger, s_medida_pronto, s_envio_pronto;
     wire edge_conta_municao;
-    wire [1:0] seletor_mux;
     wire [6:0] s_unidade, s_dezena, s_centena;
     wire [6:0] s_unidade_angulo, s_dezena_angulo, s_centena_angulo;
     wire [4:0] s_posicao;
@@ -84,10 +83,9 @@ contadorg_updown_m # (
 );
 
 contador_m # (
-    .M(357_142), // TEMPO ENTRE ROTAÇÕES: Varredura de 140 graus, de 5 em
-             // 5 graus, em 3 segundos:
-             // 3/(140/5) = 107,143 ms (5.357.142 ciclos de clock)
-    .N(23)   // 23 bits para representar 5_357_142
+    .M(2_000_000), // TEMPO ENTRE ROTAÇÕES: 300 ms = 15_000_000 ciclos de clock
+    .N(24)   // 24 bits para representar 15_000_000
+             // No testbench: 40 ms = 2_000_000 ciclos de clock
 ) CONT_TEMPO (
     .clock(clock),
     .zera_as(1'b0),
@@ -141,8 +139,9 @@ transmissor_ascii TRANS_ASCII (
 );
 
 contador_m # (
-    .M(200_000), // SIMULAR TEMPO DE PREPARACAO: 0,20 ms
-    .N(21)   // 21 bits para representar 2_000_000
+    .M(100_000), // SIMULAR TEMPO DE PREPARACAO: 500 ms
+    .N(25)   // 25 bits para representar 25_000_000
+             // NO TESTBENCH: 2 ms = 100_000 ciclos de clock
 ) CONT_DUMMY_PREPARA (
     .clock(clock),
     .zera_as(1'b0),
@@ -154,8 +153,9 @@ contador_m # (
 );
 
 contador_m # (
-    .M(200_000), // SIMULAR TEMPO DE DISPARO: 0,20 ms
-    .N(21)   // 21 bits para representar 2_000_000
+    .M(100_000), // SIMULAR TEMPO DE DISPARO: 500 ms
+    .N(25)   // 25 bits para representar 25_000_000
+             // NO TESTBENCH: 2 ms = 100_000 ciclos de clock
 ) CONT_DUMMY_DISPARO (
     .clock(clock),
     .zera_as(1'b0),
@@ -167,8 +167,9 @@ contador_m # (
 );
 
 contador_m # (
-    .M(200_000), // SIMULAR TEMPO DE RECARGA: 0,20 ms
-    .N(21)   // 21 bits para representar 2_000_000
+    .M(100_000), // SIMULAR TEMPO DE RECARGA: 500 ms
+    .N(25)   // 25 bits para representar 25_000_000
+             // NO TESTBENCH: 2 ms = 100_000 ciclos de clock
 ) CONT_DUMMY_RECARGA (
     .clock(clock),
     .zera_as(1'b0),

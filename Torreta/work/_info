@@ -10,7 +10,7 @@ z2
 cModel Technology
 d/home/victor/Documentos/USP/LABDIG2/LabDig2/Semana 5
 vcircuito_pwm_20_160
-Z0 !s110 1729523316
+Z0 !s110 1729969011
 !i10b 1
 !s100 o1hE^9=ecGSLZ85OKF;c^2
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,13 +20,13 @@ Z3 d/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta
 w1729517449
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/circuito_pwm_20_160.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/circuito_pwm_20_160.v
-!i122 97
+!i122 131
 L0 15 92
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1729523316.000000
+Z5 !s108 1729969011.000000
 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/circuito_pwm_20_160.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/circuito_pwm_20_160.v|
 !i113 1
@@ -43,7 +43,7 @@ R3
 Z8 w1729505762
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_bcd_3digitos.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_bcd_3digitos.v
-!i122 98
+!i122 132
 L0 14 45
 R4
 r1
@@ -56,7 +56,7 @@ R5
 R6
 R7
 vcontador_cm
-Z9 !s110 1729523317
+R0
 !i10b 1
 !s100 b6D0JoTDlG5A?L@JkZ4VQ3
 R1
@@ -66,7 +66,7 @@ R3
 R8
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_cm.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_cm.v
-!i122 99
+!i122 133
 L0 15 53
 R4
 r1
@@ -79,7 +79,7 @@ R5
 R6
 R7
 vcontador_cm_fd
-R9
+R0
 !i10b 1
 !s100 @3cAo8S<DolV5@b:PSKZI3
 R1
@@ -89,20 +89,20 @@ R3
 R8
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_cm_fd.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_cm_fd.v
-!i122 100
+!i122 134
 L0 15 43
 R4
 r1
 !s85 0
 31
-Z10 !s108 1729523317.000000
+R5
 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_cm_fd.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_cm_fd.v|
 !i113 1
 R6
 R7
 vcontador_cm_uc
-R9
+R0
 !i10b 1
 !s100 oP?IM9_Uf<e1:A`=1^HRE1
 R1
@@ -112,20 +112,20 @@ R3
 R8
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_cm_uc.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_cm_uc.v
-!i122 101
+!i122 135
 L0 16 53
 R4
 r1
 !s85 0
 31
-R10
+R5
 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_cm_uc.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_cm_uc.v|
 !i113 1
 R6
 R7
 vcontador_m
-R9
+R0
 !i10b 1
 !s100 UMcO@8h3ZmBO;NMlhg]fW2
 R1
@@ -135,20 +135,20 @@ R3
 R8
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_m.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_m.v
-!i122 102
+!i122 136
 L0 16 38
 R4
 r1
 !s85 0
 31
-R10
+R5
 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_m.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_m.v|
 !i113 1
 R6
 R7
 vcontador_soma_sub_m
-R9
+R0
 !i10b 1
 !s100 kEOJAMm;034^H5AY]mNM?2
 R1
@@ -158,20 +158,20 @@ R3
 w1729509412
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_soma_sub_m.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_soma_sub_m.v
-!i122 103
-Z11 L0 1 47
+!i122 137
+Z9 L0 1 47
 R4
 r1
 !s85 0
 31
-R10
+R5
 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_soma_sub_m.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_soma_sub_m.v|
 !i113 1
 R6
 R7
 vcontadorg_updown_m
-R9
+R0
 !i10b 1
 !s100 bSR<e`oaE>8LkQ1Zm_Q>P3
 R1
@@ -181,43 +181,43 @@ R3
 R8
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contadorg_updown_m.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contadorg_updown_m.v
-!i122 104
+!i122 138
 L0 5 59
 R4
 r1
 !s85 0
 31
-R10
+R5
 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contadorg_updown_m.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contadorg_updown_m.v|
 !i113 1
 R6
 R7
 vcontrole_servo_5
-R9
+R0
 !i10b 1
-!s100 `nhX9jg]n?:dEaFEQfH;Q2
+!s100 X4h44_jUg[^?;hm5?R]Fa1
 R1
-I0OIS?;bVZ=Q;^Td_0]:Th3
+IWKWU<@aIFa=Mf>oRmTa9n0
 R2
 R3
-w1729517524
+w1729968079
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/controle_servo_5.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/controle_servo_5.v
-!i122 105
+!i122 139
 L0 1 56
 R4
 r1
 !s85 0
 31
-R10
+R5
 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/controle_servo_5.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/controle_servo_5.v|
 !i113 1
 R6
 R7
 vdeslocador_n
-R9
+R0
 !i10b 1
 !s100 ekUiQZ6Ef_XO5Z3[98`6X2
 R1
@@ -227,20 +227,20 @@ R3
 R8
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/deslocador_n.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/deslocador_n.v
-!i122 106
+!i122 140
 L0 15 31
 R4
 r1
 !s85 0
 31
-R10
+R5
 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/deslocador_n.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/deslocador_n.v|
 !i113 1
 R6
 R7
 vedge_detector
-R9
+R0
 !i10b 1
 !s100 AEDYJD37[Ybb^@2QMVV>20
 R1
@@ -250,20 +250,20 @@ R3
 R8
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/edge_detector.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/edge_detector.v
-!i122 107
+!i122 141
 L0 19 23
 R4
 r1
 !s85 0
 31
-R10
+R5
 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/edge_detector.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/edge_detector.v|
 !i113 1
 R6
 R7
 vgerador_pulso
-R9
+R0
 !i10b 1
 !s100 8AoYG=9jUP9YV[a7R[WFO1
 R1
@@ -273,20 +273,20 @@ R3
 R8
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/gerador_pulso.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/gerador_pulso.v
-!i122 108
+!i122 142
 L0 14 69
 R4
 r1
 !s85 0
 31
-R10
+R5
 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/gerador_pulso.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/gerador_pulso.v|
 !i113 1
 R6
 R7
 vhexa7seg
-R9
+R0
 !i10b 1
 !s100 :20kA`7`L0gDF2=JFj`=l2
 R1
@@ -296,135 +296,135 @@ R3
 R8
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/hexa7seg.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/hexa7seg.v
-!i122 109
+!i122 143
 L0 22 38
 R4
 r1
 !s85 0
 31
-R10
+R5
 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/hexa7seg.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/hexa7seg.v|
 !i113 1
 R6
 R7
 vinterface_hcsr04
-R9
+R0
 !i10b 1
 !s100 L=9NH]4c9Z@cID^5SMLeT0
 R1
 IcGYZI6nkl:JJcSaBngS8g0
 R2
 R3
-Z12 w1729505763
+Z10 w1729505763
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/interface_hcsr04.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/interface_hcsr04.v
-!i122 110
+!i122 144
 L0 13 49
 R4
 r1
 !s85 0
 31
-R10
+R5
 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/interface_hcsr04.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/interface_hcsr04.v|
 !i113 1
 R6
 R7
 vinterface_hcsr04_fd
-R9
+R0
 !i10b 1
 !s100 ZMVhMlTDmO;P;KZElDk4j3
 R1
 IUeWRkU6a>NSl^jUFGZX>I3
 R2
 R3
-R12
+R10
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/interface_hcsr04_fd.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/interface_hcsr04_fd.v
-!i122 111
+!i122 145
 L0 14 54
 R4
 r1
 !s85 0
 31
-R10
+R5
 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/interface_hcsr04_fd.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/interface_hcsr04_fd.v|
 !i113 1
 R6
 R7
 vinterface_hcsr04_uc
-R9
+Z11 !s110 1729969012
 !i10b 1
 !s100 K^102E7XRG740_]5b4j<N1
 R1
 I2758eIz8@];G?^<c6l^W^3
 R2
 R3
-R12
+R10
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/interface_hcsr04_uc.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/interface_hcsr04_uc.v
-!i122 112
+!i122 146
 L0 14 68
 R4
 r1
 !s85 0
 31
-R10
+R5
 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/interface_hcsr04_uc.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/interface_hcsr04_uc.v|
 !i113 1
 R6
 R7
 vmux_4x1_n
-R9
+R11
 !i10b 1
 !s100 g::K8dVi^EAd>LG4DTfW61
 R1
 Ij_hnFam6o4TFhZl^8M<043
 R2
 R3
-R12
+R10
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/mux_4x1_n.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/mux_4x1_n.v
-!i122 113
+!i122 147
 L0 17 18
 R4
 r1
 !s85 0
 31
-R10
+Z12 !s108 1729969012.000000
 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/mux_4x1_n.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/mux_4x1_n.v|
 !i113 1
 R6
 R7
 vmux_8x1_n
-R9
+R11
 !i10b 1
 !s100 ?9>k4O8eFR9Mz?bl3AW^T3
 R1
 I>[<enaY=L2P?eDTC:@Vbi2
 R2
 R3
-R12
+R10
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/mux_8x1_n.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/mux_8x1_n.v
-!i122 114
+!i122 148
 L0 1 27
 R4
 r1
 !s85 0
 31
-R10
+R12
 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/mux_8x1_n.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/mux_8x1_n.v|
 !i113 1
 R6
 R7
 vregistrador_m_we
-Z13 !s110 1729523318
+R11
 !i10b 1
 !s100 gb8[7G4>hS69IY@C=8gDO1
 R1
@@ -434,43 +434,43 @@ R3
 w1729523242
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/registrador_m_we.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/registrador_m_we.v
-!i122 128
+!i122 162
 L0 1 19
 R4
 r1
 !s85 0
 31
-Z14 !s108 1729523318.000000
+R12
 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/registrador_m_we.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/registrador_m_we.v|
 !i113 1
 R6
 R7
 vregistrador_n
-R9
+R11
 !i10b 1
 !s100 c33QzNOWDW9lh[K4:od@l2
 R1
 IHIWhYCeNJd@WUh:e0eA7@2
 R2
 R3
-R12
+R10
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/registrador_n.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/registrador_n.v
-!i122 115
+!i122 149
 L0 17 20
 R4
 r1
 !s85 0
 31
-R10
+R12
 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/registrador_n.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/registrador_n.v|
 !i113 1
 R6
 R7
 vrom_angulos_29x24
-R9
+R11
 !i10b 1
 !s100 62`44;9]ORfZcTSS9On^d2
 R1
@@ -480,43 +480,43 @@ R3
 w1729518137
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/rom_angulos_29x24.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/rom_angulos_29x24.v
-!i122 117
+!i122 151
 L0 5 47
 R4
 r1
 !s85 0
 31
-R10
+R12
 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/rom_angulos_29x24.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/rom_angulos_29x24.v|
 !i113 1
 R6
 R7
 vrom_angulos_8x24
-R9
+R11
 !i10b 1
 !s100 iU:gUEgTTlQQoI>SMjI]_2
 R1
 IQV3_^[KZHeEf`mWWXjTi10
 R2
 R3
-R12
+R10
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/rom_angulos_8x24.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/rom_angulos_8x24.v
-!i122 116
+!i122 150
 L0 5 26
 R4
 r1
 !s85 0
 31
-R10
+R12
 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/rom_angulos_8x24.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/rom_angulos_8x24.v|
 !i113 1
 R6
 R7
 vtorreta
-R9
+R11
 !i10b 1
 !s100 fl1:YB4k9LCOg5[Z9Dh012
 R1
@@ -526,66 +526,66 @@ R3
 w1729519167
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta.v
-!i122 118
+!i122 152
 L0 1 156
 R4
 r1
 !s85 0
 31
-R10
+R12
 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta.v|
 !i113 1
 R6
 R7
 vtorreta_fd
-R9
+!s110 1729970861
 !i10b 1
-!s100 ldIKT^@iD_@0n9D?7?1V;0
+!s100 7n^djCMiKi;9KNIH<D]XW3
 R1
-IUS`AF^YToV:XnP98Jl2cL1
+IhI^hkZe2A:EnDPeGSRaZk2
 R2
 R3
-w1729523266
+w1729970856
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_fd.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_fd.v
-!i122 119
-L0 1 223
+!i122 163
+L0 1 224
 R4
 r1
 !s85 0
 31
-R10
+!s108 1729970861.000000
 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_fd.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_fd.v|
 !i113 1
 R6
 R7
 vtorreta_tb
-!s110 1729523653
+R11
 !i10b 1
-!s100 ID]>9nJ<bnbU07M]][1aO0
+!s100 EW9W^`f2B6aY2oJWTbODj0
 R1
-IYA[>^fUF[Lc:eT@PMP8`a1
+IG6d[mmmQ1A`n;iOU5k:z;3
 R2
 R3
-w1729523645
+w1729968842
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v
-!i122 130
-L0 3 126
+!i122 154
+L0 3 129
 R4
 r1
 !s85 0
 31
-!s108 1729523653.000000
+R12
 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v|
 !i113 1
 R6
 R7
 vtorreta_uc
-R9
+R11
 !i10b 1
 !s100 28HBfa5aPS]WPQI1`Y3Ke2
 R1
@@ -595,105 +595,105 @@ R3
 w1729515953
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_uc.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_uc.v
-!i122 121
+!i122 155
 L0 1 112
 R4
 r1
 !s85 0
 31
-R10
+R12
 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_uc.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_uc.v|
 !i113 1
 R6
 R7
 vtransmissor_ascii
-R9
+R11
 !i10b 1
 !s100 CbgYKS5Lcm]nJR@D5=B1j3
 R1
 ILQ`E]gN1O3;7GJHD<`5@Q1
 R2
 R3
-Z15 w1729505764
+Z13 w1729505764
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/transmissor_ascii.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/transmissor_ascii.v
-!i122 122
-R11
+!i122 156
+R9
 R4
 r1
 !s85 0
 31
-R10
+R12
 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/transmissor_ascii.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/transmissor_ascii.v|
 !i113 1
 R6
 R7
 vtransmissor_ascii_fd
-R13
+R11
 !i10b 1
 !s100 Hd0fc:P_J^_ToIJh]MC@J3
 R1
 IPlmoUTD>N_Jo=[8[]GP]W1
 R2
 R3
-R12
+R10
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/transmissor_ascii_fd.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/transmissor_ascii_fd.v
-!i122 123
+!i122 157
 L0 1 60
 R4
 r1
 !s85 0
 31
-R14
+R12
 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/transmissor_ascii_fd.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/transmissor_ascii_fd.v|
 !i113 1
 R6
 R7
 vtransmissor_ascii_uc
-R13
+R11
 !i10b 1
 !s100 P4B2RdgKIZioN@QM;_ck00
 R1
 I5iKXhke>[^Ek74aHMTlh91
 R2
 R3
-R15
+R13
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/transmissor_ascii_uc.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/transmissor_ascii_uc.v
-!i122 124
+!i122 158
 L0 1 102
 R4
 r1
 !s85 0
 31
-R14
+R12
 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/transmissor_ascii_uc.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/transmissor_ascii_uc.v|
 !i113 1
 R6
 R7
 vtx_serial_7O1
-R13
+R11
 !i10b 1
 !s100 gNi^V@FHjkQWa>g2<fa7b0
 R1
 I:5P0Q;<<`Se2Ph`73GD4H2
 R2
 R3
-R15
+R13
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/tx_serial_7O1.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/tx_serial_7O1.v
-!i122 125
+!i122 159
 L0 5 87
 R4
 r1
 !s85 0
 31
-R14
+R12
 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/tx_serial_7O1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/tx_serial_7O1.v|
 !i113 1
@@ -701,23 +701,23 @@ R6
 R7
 ntx_serial_7@o1
 vtx_serial_7O1_fd
-R13
+R11
 !i10b 1
 !s100 j9LboW5WfS0PLV6fEj5gG0
 R1
 I_;Ic]@=2FzMK4[;b5O<d]2
 R2
 R3
-R15
+R13
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/tx_serial_7O1_fd.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/tx_serial_7O1_fd.v
-!i122 126
+!i122 160
 L0 5 53
 R4
 r1
 !s85 0
 31
-R14
+R12
 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/tx_serial_7O1_fd.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/tx_serial_7O1_fd.v|
 !i113 1
@@ -725,23 +725,23 @@ R6
 R7
 ntx_serial_7@o1_fd
 vtx_serial_uc
-R13
+R11
 !i10b 1
 !s100 E8o;>OLQ7g9]zZBKTLi@h3
 R1
 IEz_gATXS5cM`FP?nP;ULZ3
 R2
 R3
-R15
+R13
 8/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/tx_serial_uc.v
 F/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/tx_serial_uc.v
-!i122 127
+!i122 161
 L0 16 64
 R4
 r1
 !s85 0
 31
-R14
+R12
 !s107 /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/tx_serial_uc.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/tx_serial_uc.v|
 !i113 1

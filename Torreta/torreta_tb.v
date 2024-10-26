@@ -43,7 +43,7 @@ parameter clockPeriod = 20; // clock de 50MHz
 always #(clockPeriod/2) clock = ~clock;
 
 // Array de casos de teste (estrutura equivalente em Verilog)
-reg [31:0] casos_teste [0:4]; // Usando 32 bits para acomodar o tempo
+reg [31:0] casos_teste [0:7]; // Usando 32 bits para acomodar o tempo
 integer caso;
 integer i;
 
@@ -61,6 +61,9 @@ initial begin
     casos_teste[2] = 2058;   // 2058us (35cm)
     casos_teste[3] = 1235;   // 1235us (21cm)
     casos_teste[4] = 5882;   // 5882us (100cm)
+    casos_teste[5] = 5882;   // 5882us (100cm)
+    casos_teste[6] = 1235;   // 1235us (21cm)
+    casos_teste[7] = 5882;   // 5882us (100cm)
 
     // Valores iniciais
     ligar = 0;
@@ -82,11 +85,11 @@ initial begin
     #(100_000); // 100 us
 
     // Carregar a torreta
-    for (i = 0; i < 4; i = i + 1) begin
+    for (i = 0; i < 7; i = i + 1) begin
         conta_municao = 1;
-        #(5*clockPeriod);
+        #(10*clockPeriod);
         conta_municao = 0;
-        #(5*clockPeriod);
+        #(105*clockPeriod);
     end
 
     // Espera de 100us
@@ -96,7 +99,7 @@ initial begin
     #(5*clockPeriod);
 
     // Loop pelos casos de teste
-    for (caso = 1; caso < 6; caso = caso + 1) begin
+    for (caso = 1; caso <= 7; caso = caso + 1) begin
         // 1) Determina a largura do pulso echo
         $display("Caso de teste %0d: %0dus", caso, casos_teste[caso-1]);
         larguraPulso = casos_teste[caso-1]*1000; // 1us=1000
