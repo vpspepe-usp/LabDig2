@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Python: Module: main",
+            "type": "python",
+            "request": "launch",
+            "module": "main",
+            "justMyCode": true,
+            "env": {"PYTHONPATH": "${cwd}$", "workspaceFolder": "${workspaceFolder}$"}
+        }]
+}

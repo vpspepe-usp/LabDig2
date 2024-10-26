@@ -6,3 +6,5 @@
 *.ddb
 *.html
 *.xml
+.dist
+__pycache__

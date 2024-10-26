@@ -1,0 +1,43 @@
+Quartus Prime Archive log --	/home/victor/Documentos/LABDIG2/LabDig2/Torreta/torreta.qarlog
+
+Archive:	/home/victor/Documentos/LABDIG2/LabDig2/Torreta/torreta.qar
+Date:		Wed Oct 23 09:41:18 2024
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/circuito_pwm_20_160.v
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/contador_bcd_3digitos.v
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/contador_cm.v
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/contador_cm_fd.v
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/contador_cm_uc.v
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/contador_m.v
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/contador_soma_sub_m.v
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/contadorg_updown_m.v
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/controle_servo_5.v
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/deslocador_n.v
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/edge_detector.v
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/gerador_pulso.v
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/hexa7seg.v
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/interface_hcsr04.v
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/interface_hcsr04_fd.v
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/interface_hcsr04_uc.v
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/mux_8x1_n.v
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/registrador_m_we.v
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/registrador_n.v
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/rom_angulos_29x24.v
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/torreta.qpf
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/torreta.qsf
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/torreta.v
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/torreta_fd.v
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/torreta_uc.v
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/transmissor_ascii.v
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/transmissor_ascii_fd.v
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/transmissor_ascii_uc.v
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/tx_serial_7O1.v
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/tx_serial_7O1_fd.v
+/home/victor/Documentos/LABDIG2/LabDig2/Torreta/tx_serial_uc.v
+/home/victor/intelFPGA_lite/20.1/quartus/linux64/assignment_defaults.qdf
+	======= Total: 32 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
