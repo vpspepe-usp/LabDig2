@@ -1,5 +1,6 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
+add wave -noupdate /torreta_tb/seletor_hexa
 add wave -noupdate -divider -height 25 GERAIS
 add wave -noupdate -height 20 /torreta_tb/clock
 add wave -noupdate -height 20 /torreta_tb/caso
@@ -8,10 +9,11 @@ add wave -noupdate -height 20 /torreta_tb/ligar
 add wave -noupdate -height 20 /torreta_tb/echo
 add wave -noupdate -height 20 /torreta_tb/conta_municao
 add wave -noupdate -height 20 /torreta_tb/trigger
-add wave -noupdate -height 20 /torreta_tb/pwm
 add wave -noupdate -height 20 /torreta_tb/saida_serial
 add wave -noupdate -height 20 /torreta_tb/ameaca_detectada
 add wave -noupdate -height 20 /torreta_tb/fim_posicao
+add wave -noupdate /torreta_tb/pwm_base
+add wave -noupdate /torreta_tb/pwm_recarga
 add wave -noupdate -divider -height 25 {DISTANCIA E ANGULO}
 add wave -noupdate -color RED -height 20 -itemcolor RED -radix hexadecimal /torreta_tb/DUT/FD/unidade
 add wave -noupdate -color RED -height 20 -itemcolor RED -radix hexadecimal /torreta_tb/DUT/FD/dezena
@@ -53,4 +55,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ns
 update
-WaveRestoreZoom {0 ns} {353467153 ns}
+WaveRestoreZoom {0 ns} {438912303 ns}

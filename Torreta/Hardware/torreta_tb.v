@@ -8,7 +8,8 @@ reg echo;
 reg conta_municao;
 reg seletor_hexa;
 wire trigger;
-wire pwm;
+wire pwm_base;
+wire pwm_recarga;
 wire saida_serial;
 wire fim_posicao;
 wire ameaca_detectada;
@@ -18,6 +19,7 @@ wire [6:0] db_dezena;
 wire [6:0] db_unidade;
 wire [6:0] hex_contagem_municao;
 
+
 torreta DUT (
     .clock(clock),
     .reset(reset),
@@ -26,7 +28,8 @@ torreta DUT (
     .conta_municao(conta_municao),
     .seletor_hexa(seletor_hexa),
     .trigger(trigger),
-    .pwm(pwm),
+    .pwm_base(pwm_base),
+    .pwm_recarga(pwm_recarga),
     .saida_serial(saida_serial),
     .fim_posicao(fim_posicao),
     .ameaca_detectada(ameaca_detectada),

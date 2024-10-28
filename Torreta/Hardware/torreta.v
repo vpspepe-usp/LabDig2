@@ -141,6 +141,8 @@ assign db_trigger = s_trigger;
 assign pwm_base = s_pwm_base;
 assign db_pwm_base = s_pwm_base;
 
+assign pwm_recarga = s_pwm_recarga;
+
 assign saida_serial = s_saida_serial;
 assign db_saida_serial = saida_serial;
 

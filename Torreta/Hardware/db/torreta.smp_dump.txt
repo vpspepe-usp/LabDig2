@@ -28,6 +28,12 @@ Eatual.espera 0 1 0 0 1
 Eatual.transmissao 1 0 0 0 1 
 Eatual.final_tx 0 0 0 1 1 
 
+State Machine - |torreta|torreta_fd:FD|servo_recarga:SERVO_RECARGA|servo_recarga_uc:UC|Eatual
+Name Eatual.inicial Eatual.final_recarga Eatual.recarregando 
+Eatual.inicial 0 0 0 
+Eatual.recarregando 1 0 1 
+Eatual.final_recarga 1 1 0 
+
 State Machine - |torreta|torreta_fd:FD|interface_hcsr04:INT|interface_hcsr04_fd:U2|contador_cm:U2|contador_cm_uc:UC|Eatual
 Name Eatual.fim Eatual.conta_cm Eatual.espera_tick Eatual.espera_echo Eatual.preparacao Eatual.inicial 
 Eatual.inicial 0 0 0 0 0 0 
