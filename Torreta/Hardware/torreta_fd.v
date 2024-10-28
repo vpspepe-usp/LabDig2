@@ -17,7 +17,8 @@ module torreta_fd #(parameter M_MUNICAO = 16,
     output saida_serial,
     output meio_tempo,
     output fim_tempo,
-    output pwm,
+    output pwm_base,
+    output pwm_recarga,
     output ameaca_detectada,
     output disparo_carregado,
     output municao_carregada,
@@ -61,10 +62,18 @@ controle_servo_5 SERVO_BASE (
         .clock(clock),
         .reset(reset),
         .posicao(s_posicao),
-        .controle(pwm),
+        .controle(pwm_base),
         .db_reset(),
         .db_posicao(),
         .db_controle()
+);
+
+servo_recarga SERVO_RECARGA (
+        .clock(clock),
+        .reset(reset),
+        .recarregar(recarregar_disparo),
+        .pwm(pwm_recarga),
+        .fim_recarga(s_fim_recarga_disparo)
 );
 
 contadorg_updown_m # (
@@ -166,19 +175,19 @@ contador_m # (
     .meio()
 );
 
-contador_m # (
-    .M(100_000), // SIMULAR TEMPO DE RECARGA: 500 ms
-    .N(25)   // 25 bits para representar 25_000_000
-             // NO TESTBENCH: 2 ms = 100_000 ciclos de clock
-) CONT_DUMMY_RECARGA (
-    .clock(clock),
-    .zera_as(1'b0),
-    .zera_s(reset),
-    .conta(recarregar_disparo),
-    .Q(),
-    .fim(s_fim_recarga_disparo),
-    .meio()
-);
+// contador_m # (
+//     .M(100_000), // SIMULAR TEMPO DE RECARGA: 500 ms
+//     .N(25)   // 25 bits para representar 25_000_000
+//              // NO TESTBENCH: 2 ms = 100_000 ciclos de clock
+// ) CONT_DUMMY_RECARGA (
+//     .clock(clock),
+//     .zera_as(1'b0),
+//     .zera_s(reset),
+//     .conta(recarregar_disparo),
+//     .Q(),
+//     .fim(s_fim_recarga_disparo),
+//     .meio()
+// );
 
 registrador_m_we REG_WE_AMEACA (
     .clock(clock),

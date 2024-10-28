@@ -6,12 +6,13 @@ module torreta (
     input   conta_municao,
     input   seletor_hexa,
     output  trigger,
-    output  pwm,
+    output  pwm_base,
+    output  pwm_recarga,
     output  saida_serial,
     output  fim_posicao,
     output  ameaca_detectada,
     output db_trigger,
-    output db_pwm,
+    output db_pwm_base,
     output db_saida_serial,
     output db_echo,
     output [6:0] db_estado,
@@ -30,7 +31,7 @@ wire s_armar_disparo, s_disparar, s_recarregar_disparo;
 // FD -> UC
 wire s_medida_pronto, s_envio_pronto;
 wire s_meio_tempo, s_fim_tempo;
-wire s_trigger, s_saida_serial, s_pwm;
+wire s_trigger, s_saida_serial, s_pwm_base, s_pwm_recarga;
 wire s_ameaca_detectada, s_disparo_carregado, s_municao_carregada, s_disparo_pronto, s_fim_disparo;
 
 
@@ -89,7 +90,8 @@ torreta_fd #(
     .saida_serial(s_saida_serial),
     .meio_tempo(s_meio_tempo),
     .fim_tempo(s_fim_tempo),
-    .pwm(s_pwm),
+    .pwm_base(s_pwm_base),
+    .pwm_recarga(s_pwm_recarga),
     .ameaca_detectada(s_ameaca_detectada),
     .disparo_carregado(s_disparo_carregado),
     .municao_carregada(s_municao_carregada),
@@ -136,8 +138,8 @@ assign fim_posicao = s_pronto;
 assign trigger = s_trigger;
 assign db_trigger = s_trigger;
 
-assign pwm = s_pwm;
-assign db_pwm = s_pwm;
+assign pwm_base = s_pwm_base;
+assign db_pwm_base = s_pwm_base;
 
 assign saida_serial = s_saida_serial;
 assign db_saida_serial = saida_serial;

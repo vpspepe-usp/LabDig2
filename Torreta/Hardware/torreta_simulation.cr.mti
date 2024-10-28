@@ -68,6 +68,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	circuito_pwm_20_160
 
+} {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/transmissor_ascii.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/transmissor_ascii.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module transmissor_ascii
+
+Top level modules:
+	transmissor_ascii
+
 } {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/interface_hcsr04_fd.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/interface_hcsr04_fd.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module interface_hcsr04_fd
@@ -82,19 +89,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	registrador_m_we
 
-} {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/transmissor_ascii.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/transmissor_ascii.v
+} {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/transmissor_ascii_fd.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/transmissor_ascii_fd.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module transmissor_ascii
+-- Compiling module transmissor_ascii_fd
 
 Top level modules:
-	transmissor_ascii
-
-} {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_soma_sub_m.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_soma_sub_m.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module contador_soma_sub_m
-
-Top level modules:
-	contador_soma_sub_m
+	transmissor_ascii_fd
 
 } {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/rom_angulos_29x24.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/rom_angulos_29x24.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -103,19 +103,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	rom_angulos_29x24
 
-} {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/transmissor_ascii_fd.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/transmissor_ascii_fd.v
+} {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_soma_sub_m.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_soma_sub_m.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module transmissor_ascii_fd
+-- Compiling module contador_soma_sub_m
 
 Top level modules:
-	transmissor_ascii_fd
-
-} {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_bcd_3digitos.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_bcd_3digitos.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module contador_bcd_3digitos
-
-Top level modules:
-	contador_bcd_3digitos
+	contador_soma_sub_m
 
 } {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/mux_8x1_n.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/mux_8x1_n.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -124,12 +117,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	mux_8x1_n
 
-} {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_cm_uc.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_cm_uc.v
+} {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_bcd_3digitos.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_bcd_3digitos.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module contador_cm_uc
+-- Compiling module contador_bcd_3digitos
 
 Top level modules:
-	contador_cm_uc
+	contador_bcd_3digitos
 
 } {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_uc.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_uc.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -138,12 +131,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	torreta_uc
 
-} {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contadorg_updown_m.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contadorg_updown_m.v
+} {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_cm_uc.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_cm_uc.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module contadorg_updown_m
+-- Compiling module contador_cm_uc
 
 Top level modules:
-	contadorg_updown_m
+	contador_cm_uc
 
 } {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/tx_serial_7O1.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/tx_serial_7O1.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -152,12 +145,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	tx_serial_7O1
 
-} {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/tx_serial_7O1_fd.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/tx_serial_7O1_fd.v
+} {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contadorg_updown_m.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contadorg_updown_m.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module tx_serial_7O1_fd
+-- Compiling module contadorg_updown_m
 
 Top level modules:
-	tx_serial_7O1_fd
+	contadorg_updown_m
 
 } {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/tx_serial_uc.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/tx_serial_uc.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -166,19 +159,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	tx_serial_uc
 
+} {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/tx_serial_7O1_fd.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/tx_serial_7O1_fd.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tx_serial_7O1_fd
+
+Top level modules:
+	tx_serial_7O1_fd
+
 } {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/interface_hcsr04_uc.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/interface_hcsr04_uc.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module interface_hcsr04_uc
 
 Top level modules:
 	interface_hcsr04_uc
-
-} {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/interface_hcsr04.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/interface_hcsr04.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module interface_hcsr04
-
-Top level modules:
-	interface_hcsr04
 
 } {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/transmissor_ascii_uc.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/transmissor_ascii_uc.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -187,6 +180,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	transmissor_ascii_uc
 
+} {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/interface_hcsr04.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/interface_hcsr04.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module interface_hcsr04
+
+Top level modules:
+	interface_hcsr04
+
 } {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/deslocador_n.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/deslocador_n.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module deslocador_n
@@ -194,19 +194,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	deslocador_n
 
-} {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v
+} {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_m.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_m.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module torreta_tb
+-- Compiling module contador_m
 
 Top level modules:
-	torreta_tb
-
-} {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/gerador_pulso.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/gerador_pulso.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module gerador_pulso
-
-Top level modules:
-	gerador_pulso
+	contador_m
 
 } {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/edge_detector.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/edge_detector.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -215,11 +208,18 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	edge_detector
 
-} {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_m.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/contador_m.v
+} {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/gerador_pulso.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/gerador_pulso.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module contador_m
+-- Compiling module gerador_pulso
 
 Top level modules:
-	contador_m
+	gerador_pulso
+
+} {} {}} /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v {1 {vlog -work work -stats=none /home/victor/Documentos/USP/LABDIG2/LabDig2/Torreta/torreta_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module torreta_tb
+
+Top level modules:
+	torreta_tb
 
 } {} {}}
