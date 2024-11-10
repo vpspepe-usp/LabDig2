@@ -1,0 +1,133 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'torreta_uc:UC|Eatual.timeout'
+Slack : -5.138
+TNS   : -18.659
+
+Type  : Slow 1100mV 85C Model Setup 'clock'
+Slack : -3.269
+TNS   : -764.490
+
+Type  : Slow 1100mV 85C Model Hold 'clock'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'torreta_uc:UC|Eatual.timeout'
+Slack : 3.105
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'clock'
+Slack : -2.264
+TNS   : -64.373
+
+Type  : Slow 1100mV 85C Model Removal 'clock'
+Slack : 0.827
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clock'
+Slack : -0.538
+TNS   : -262.081
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'torreta_uc:UC|Eatual.timeout'
+Slack : 0.349
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'torreta_uc:UC|Eatual.timeout'
+Slack : -5.163
+TNS   : -18.997
+
+Type  : Slow 1100mV 0C Model Setup 'clock'
+Slack : -3.277
+TNS   : -764.215
+
+Type  : Slow 1100mV 0C Model Hold 'clock'
+Slack : 0.224
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'torreta_uc:UC|Eatual.timeout'
+Slack : 3.062
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'clock'
+Slack : -1.941
+TNS   : -56.652
+
+Type  : Slow 1100mV 0C Model Removal 'clock'
+Slack : 0.468
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clock'
+Slack : -0.538
+TNS   : -268.806
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'torreta_uc:UC|Eatual.timeout'
+Slack : 0.325
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'torreta_uc:UC|Eatual.timeout'
+Slack : -2.155
+TNS   : -7.436
+
+Type  : Fast 1100mV 85C Model Setup 'clock'
+Slack : -1.468
+TNS   : -207.148
+
+Type  : Fast 1100mV 85C Model Hold 'clock'
+Slack : 0.171
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'torreta_uc:UC|Eatual.timeout'
+Slack : 1.747
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'clock'
+Slack : -1.365
+TNS   : -11.718
+
+Type  : Fast 1100mV 85C Model Removal 'clock'
+Slack : 0.400
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clock'
+Slack : -0.099
+TNS   : -30.625
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'torreta_uc:UC|Eatual.timeout'
+Slack : 0.458
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'torreta_uc:UC|Eatual.timeout'
+Slack : -2.000
+TNS   : -6.931
+
+Type  : Fast 1100mV 0C Model Setup 'clock'
+Slack : -1.061
+TNS   : -167.254
+
+Type  : Fast 1100mV 0C Model Hold 'clock'
+Slack : 0.145
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'torreta_uc:UC|Eatual.timeout'
+Slack : 1.676
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'clock'
+Slack : -0.974
+TNS   : -8.241
+
+Type  : Fast 1100mV 0C Model Removal 'clock'
+Slack : 0.154
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clock'
+Slack : -0.098
+TNS   : -31.557
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'torreta_uc:UC|Eatual.timeout'
+Slack : 0.455
+TNS   : 0.000
+
+------------------------------------------------------------
